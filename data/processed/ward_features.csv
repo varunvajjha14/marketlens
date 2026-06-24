@@ -1,0 +1,25 @@
+ward_name,ward_id,total_venues,restaurant_count,fast_food_count,cafe_count,bar_count,dessert_count,chain_count,independent_count,chain_ratio,delivery_count,takeaway_count,delivery_ratio,unique_cuisines,top_cuisine,dominant_category
+Bandra,S,217,98,41,57,7,14,22,195,0.101,4,23,0.018,31,unknown,restaurant
+Andheri West,KW,144,56,44,34,5,5,29,115,0.201,8,35,0.056,26,unknown,restaurant
+Mulund,T,82,38,29,11,1,3,5,77,0.061,0,3,0.0,11,unknown,restaurant
+Girgaon,C,76,53,10,9,2,2,6,70,0.079,5,7,0.066,17,unknown,restaurant
+Dadar,GS,65,27,24,8,2,4,11,54,0.169,0,9,0.0,18,unknown,restaurant
+Mandvi,B,61,38,13,10,0,0,4,57,0.066,1,4,0.016,14,unknown,restaurant
+Ghatkopar,N,36,17,6,11,0,2,3,33,0.083,1,2,0.028,11,unknown,restaurant
+Mahim,FS,34,19,4,9,0,2,7,27,0.206,1,7,0.029,9,unknown,restaurant
+Kurla East,L,32,14,11,6,0,1,7,25,0.219,2,10,0.062,12,unknown,restaurant
+Sion,FN,27,15,2,5,3,1,5,22,0.185,0,4,0.0,5,unknown,restaurant
+Govandi,ME,24,13,1,5,4,1,3,21,0.125,0,0,0.0,6,unknown,restaurant
+Kandivali,RS,22,10,1,10,1,0,3,19,0.136,2,3,0.091,8,unknown,cafe
+Santacruz West,HW,22,11,3,6,1,1,4,18,0.182,1,2,0.045,8,unknown,restaurant
+Dahisar,RC,21,13,2,4,2,0,0,21,0.0,0,1,0.0,8,unknown,restaurant
+Kurla,KE,21,17,2,2,0,0,2,19,0.095,1,1,0.048,6,unknown,restaurant
+Santacruz East,HE,18,2,7,8,1,0,5,13,0.278,1,5,0.056,7,unknown,cafe
+Goregaon,PN,16,8,4,4,0,0,3,13,0.188,0,3,0.0,5,unknown,restaurant
+Borivali South,PS,14,7,5,1,1,0,4,10,0.286,0,3,0.0,8,indian,restaurant
+Dharavi,GN,12,2,6,1,0,3,0,12,0.0,0,6,0.0,5,unknown,fast_food
+Colaba,A,8,5,0,1,0,2,3,5,0.375,2,3,0.25,7,indian,restaurant
+Chembur,MW,8,3,2,2,0,0,1,7,0.125,0,0,0.0,4,unknown,restaurant
+Byculla,E,7,3,3,1,0,0,1,6,0.143,0,1,0.0,5,unknown,fast_food
+Malabar Hill,D,4,3,0,0,0,1,0,4,0.0,0,0,0.0,2,unknown,restaurant
+Borivali North,RN,3,2,0,1,0,0,1,2,0.333,0,1,0.0,3,coffee_shop,restaurant

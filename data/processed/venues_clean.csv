@@ -1,0 +1,975 @@
+osm_id,name,lat,lng,ward,ward_name,amenity,category,cuisine,takeaway,delivery,outdoor_seating,is_chain,opening_hours
+node_496816401,Cafe Coffee Day,18.9166662,72.8176892,A,Colaba,cafe,cafe,coffee_shop,True,False,False,True,
+node_4047369646,Santoor,18.9166992,72.8177173,A,Colaba,restaurant,restaurant,indian,True,True,False,False,
+node_4048759190,Nature's Basket,18.914704,72.8181018,A,Colaba,ice_cream,dessert,unknown,False,False,False,True,Mo-Su 08:00-22:00
+node_4048759441,Flamboyanté,18.9139072,72.8182842,A,Colaba,restaurant,restaurant,italian,False,False,False,False,
+node_4048759442,The Village,18.9144908,72.8182091,A,Colaba,restaurant,restaurant,indian,False,False,False,False,
+node_4242855335,Jagadish Canteen,18.9080952,72.8060835,A,Colaba,restaurant,restaurant,regional,False,False,False,False,
+node_4243982133,Kamats,18.9165129,72.8175703,A,Colaba,restaurant,restaurant,south_indian,True,True,False,False,
+node_12620087096,Naturals,18.911007,72.820594,A,Colaba,ice_cream,dessert,ice_cream,False,False,False,True,
+node_605222674,Rajdhani,18.9429607,72.8291513,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_858582376,Umar Pulaowala,18.9592105,72.8303122,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_1234802651,McDonald's,18.9387735,72.8344385,B,Mandvi,fast_food,fast_food,burger,True,False,False,True,
+node_1304858029,Shalimar,18.957924,72.8324233,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,
+node_2166872171,Cafe Coffee Day,18.9390156,72.8342644,B,Mandvi,cafe,cafe,coffee_shop,True,False,False,True,
+node_2166872172,New Majestic,18.9392087,72.8343769,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_2189176390,Suvidha,18.9374417,72.8340638,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_2930714471,Khans Cafe,18.9520692,72.8281085,B,Mandvi,cafe,cafe,pizza,False,False,False,False,
+node_2930723087,shahil restaurant,18.9515065,72.82947,B,Mandvi,restaurant,restaurant,chicken_,False,False,False,False,
+node_3204284269,Traveler's Coffee,18.9462778,72.8436247,B,Mandvi,cafe,cafe,coffee_shop,False,False,False,False,
+node_3205798464,chanda cafe shop,18.9532967,72.8360059,B,Mandvi,cafe,cafe,unknown,False,False,False,False,
+node_3257870661,beer bar and restaurant,18.9432705,72.8286006,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_3313013691,Domminos,18.9416893,72.8281217,B,Mandvi,restaurant,restaurant,pizza,False,False,False,False,
+node_3313013696,Hindustan Restaurant,18.9549763,72.8341346,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,
+node_3366103245,Liberty,18.9415002,72.8275431,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_3366103247,Shreeji Sagar,18.9414618,72.827575,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_3994771759,Poonam Restaurant,18.944249,72.824337,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,
+node_4133873664,Iranian food,18.9479414,72.8355932,B,Mandvi,restaurant,restaurant,persian,False,False,False,False,
+node_4133877123,Jai Ganesh pizza corner,18.9373663,72.8370359,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,Mo-Su 08:00-21:00
+node_4225072291,Creeda Board Game Cafe,18.9374108,72.8331683,B,Mandvi,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 12:00-22:00
+node_4302276789,Radio Restaurant,18.9479702,72.8359529,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 06:00-24:00
+node_4593013889,The Goose and Gridiron,18.9382784,72.8332041,B,Mandvi,restaurant,restaurant,grill,False,False,False,False,
+node_4658636589,Shree Thaker Bhojanalay,18.9511,72.8282804,B,Mandvi,restaurant,restaurant,gujarati,False,False,False,False,
+node_4676989392,New Jai Hind Restaurant,18.9531967,72.835022,B,Mandvi,restaurant,restaurant,local,False,False,False,False,
+node_4695132801,Burger King,18.9381795,72.834279,B,Mandvi,fast_food,fast_food,burger,True,False,False,True,
+node_4801932927,Farhang Restaurant,18.9382881,72.838063,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_4844717522,Patel Restaurant,18.949792,72.8348195,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_5221682037,Noor Mohammadi Hotel,18.9578129,72.8322448,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_5263811023,Sher-e-Punjab,18.9380026,72.8377046,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,
+node_5304605321,Khau galli,18.9381338,72.8289414,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_5451047523,Royal China,18.9385871,72.8328817,B,Mandvi,restaurant,restaurant,chinese,False,False,False,False,
+node_6155507386,Pancham Puriwala,18.938269,72.8356327,B,Mandvi,cafe,cafe,unknown,False,False,False,False,
+node_6287580585,Cheap and good Food,18.9490986,72.8411504,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_6367693478,Cafe Islam,18.9589473,72.8374659,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_6367704894,Ahmadi,18.9589669,72.837211,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_6367704895,Shimla Cold Drinks,18.9586904,72.8364788,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_6367704896,Azad,18.9584913,72.8365807,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_6451269285,Anand Bhavan,18.9379302,72.8369057,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_6813483411,Badshah Falooda Place,18.9474561,72.8334369,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_7025612186,Best dosa of your life,18.9533702,72.8355417,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_7025617485,best dosa of your life,18.9533542,72.8359415,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_7213603557,Gughan Veg,18.9434146,72.8249106,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,
+node_7278871285,Savera Fast Food,18.9428088,72.8270686,B,Mandvi,fast_food,fast_food,pizza,False,False,False,False,
+node_7279287885,Krishna Murari (Veg. Treat),18.9490981,72.8287567,B,Mandvi,restaurant,restaurant,regional,False,False,False,False,
+node_7280038501,GREENVEG Fresh Treat !!!!,18.9459022,72.831356,B,Mandvi,fast_food,fast_food,pizza,False,False,False,False,
+node_7506793876,Al Rehmani Resturant,18.9617676,72.8317742,B,Mandvi,restaurant,restaurant,mughlai,False,False,False,False,
+node_7506793877,Cafe Almas,18.9617761,72.8321931,B,Mandvi,restaurant,restaurant,mughlai,False,False,False,False,
+node_7944300038,Cafe Coffee Day,18.9401785,72.8283196,B,Mandvi,cafe,cafe,coffee_shop,True,False,False,True,
+node_9574698658,Sassanian,18.9427789,72.8269322,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_9574735835,Cafe Excelsior,18.9375389,72.8336457,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_10223815018,Good Flipping‘ Burgers,18.9439618,72.8254403,B,Mandvi,fast_food,fast_food,burger,False,False,False,False,
+node_10689842806,Night Market for Street Food,18.9510615,72.8315487,B,Mandvi,fast_food,fast_food,unknown,False,False,False,False,
+node_11250525037,U. K. Juice center,18.9439688,72.8284833,B,Mandvi,cafe,cafe,unknown,False,False,False,False,
+node_11465204243,We Wake Cafe,18.9387195,72.8382479,B,Mandvi,cafe,cafe,unknown,False,False,False,False,
+node_12843656851,B Bhagat Tarachand - Pydhonie,18.953586,72.8315292,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,Mo-Su 11:00-23:30
+node_13464335936,Hotel Fountain Plaza,18.9356647,72.8340885,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+node_13700581244,Ahar Restaurant & Cafe,18.9415152,72.832065,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,
+way_51937306,Cafe Universal,18.9360889,72.8376472,B,Mandvi,restaurant,restaurant,unknown,False,False,False,False,Mo-Sa 11:00-23:00; Su 16:00-23:00
+way_353405023,bombay bites,18.9614552,72.8359164,B,Mandvi,cafe,cafe,coffee_shop,False,False,True,False,06:00-22:00
+way_358341277,BGF - BakeGrillFry,18.9582004,72.8332812,B,Mandvi,restaurant,restaurant,chicken,False,True,False,False,Mo-Su 15:30-23:30
+way_359561187,good luck resto,18.9610444,72.8366473,B,Mandvi,restaurant,restaurant,indian,False,False,False,False,
+node_477241951,Golden Crown,18.9623007,72.8118145,C,Girgaon,bar,bar,unknown,False,False,False,False,
+node_610270325,Ever Green,18.9598264,72.81716,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_610271821,Shriram,18.959522,72.8172244,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_705149077,Little Italy,18.9544525,72.8184244,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_714973133,Sarvi Restaurant,18.9667686,72.8291706,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 09:00-21:00
+node_1704060904,New York Restaurant & Bar,18.9579491,72.8109515,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_2637278019,McDonald's,18.9680964,72.8238092,C,Girgaon,fast_food,fast_food,burger,True,False,False,True,Mo-Su 09:00-21:00
+node_3306535080,Ice Cream Works,18.9546257,72.8147495,C,Girgaon,cafe,cafe,ice_cream,False,False,False,False,
+node_4209578684,KFC,18.9682841,72.8226713,C,Girgaon,fast_food,fast_food,chicken,True,False,False,True,Mo-Su 11:00-22:45
+node_4232929346,king Falcon,18.9613711,72.8232846,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_4657376591,Swati snacks,18.9664905,72.8134201,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 11:45-22:45
+node_4844675138,Thali,18.9530787,72.8174011,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_4844675139,Paramount,18.9543399,72.8152093,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_4844675326,Domino's,18.9534131,72.8167581,C,Girgaon,fast_food,fast_food,pizza,True,False,False,True,
+node_4900246921,Amar Restaurant,18.9653015,72.8127963,C,Girgaon,restaurant,restaurant,indian,True,False,False,False,Mo-Su 09:00-00:00
+node_4901027721,New Ideal,18.9629206,72.8108579,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_4929463264,Baskin-Robbins,18.9666028,72.8135178,C,Girgaon,ice_cream,dessert,ice_cream,False,False,False,True,Mo-Su 11:00-00:00
+node_4937125521,Shree Krishna Vegetarian Restaurant,18.9620493,72.8131613,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 07:00-00:00
+node_5037185424,Balaji Fast Food,18.9724225,72.8150157,C,Girgaon,fast_food,fast_food,unknown,False,False,False,False,Mo-Su 11:00-23:00
+node_5085177523,Vanakkam Vihar,18.9569492,72.8157222,C,Girgaon,restaurant,restaurant,south_indian,False,False,False,False,
+node_5090943810,Tewari Brothers Mithaiwala,18.9564555,72.8159459,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 08:00-21:30
+node_5283982922,Third Wave Coffee,18.9554204,72.8137657,C,Girgaon,cafe,cafe,unknown,False,False,False,False,
+node_6215441085,Doolally Taproom,18.9640974,72.8077824,C,Girgaon,bar,bar,indian,False,False,False,False,
+node_6356585085,Mughlai Fusion,18.9597133,72.8197009,C,Girgaon,restaurant,restaurant,chicken,False,False,False,False,
+node_6494986078,Soam Restaurant,18.9574682,72.8089759,C,Girgaon,restaurant,restaurant,indian-_gujarati rajasthani chaat,False,False,False,False,
+node_6614922840,The Culture House,18.9570729,72.81022,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 11:00-23:30
+node_6816067581,Sardar Pav Phaji,18.9698483,72.8148737,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_6965624162,Narayan Dosa,18.9573572,72.8132718,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 12:00-23:00
+node_6965624171,Mama Mia!,18.9573588,72.8132296,C,Girgaon,fast_food,fast_food,pizza,False,True,False,False,Mo-Su 11:00-23:00
+node_7112155252,Oh! Calcutta,18.9725365,72.8155735,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 12:30-23:30
+node_7118934813,Nityanand Fast Food,18.9572494,72.8195089,C,Girgaon,restaurant,restaurant,indian,False,True,False,False,Mo-Su 10:00-00:30
+node_7213733383,Poco Loco Restaurant & Bar,18.958225,72.8112146,C,Girgaon,restaurant,restaurant,burger,False,False,False,False,
+node_7499053622,Cafe Paradise,18.9618693,72.830019,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,
+node_7506793879,Nilgiri,18.961654,72.8307893,C,Girgaon,restaurant,restaurant,mughlai,False,False,False,False,
+node_7506793880,Alamgir Hotel,18.9617326,72.830466,C,Girgaon,restaurant,restaurant,mughlai,False,False,False,False,
+node_7506854136,Laham,18.96168,72.829516,C,Girgaon,restaurant,restaurant,mughlai,False,False,False,False,
+node_7506854142,Star of U.P Restaurant,18.9616225,72.8290834,C,Girgaon,restaurant,restaurant,mughlai,False,False,False,False,
+node_7506854143,Nawab Seekh Paratha,18.9616408,72.8284556,C,Girgaon,fast_food,fast_food,mughlai,False,False,False,False,
+node_7514380044,Zulfikar Restaurant,18.964704,72.8308951,C,Girgaon,restaurant,restaurant,mughlai,False,False,False,False,
+node_9017049890,"Gama Roti, Bara Handi Shop",18.9654281,72.8302061,C,Girgaon,restaurant,restaurant,muglai,False,False,False,False,Mo-Sa 07:00-22:00
+node_9663134040,JJ Jalebi,18.9616452,72.8292672,C,Girgaon,fast_food,fast_food,regional,False,False,False,False,
+node_10220942701,Hotel Hindmata,18.9691612,72.8167078,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 11:00-00:00
+node_10564186703,Rolex Restaurant,18.9673399,72.8287291,C,Girgaon,restaurant,restaurant,regional,False,True,False,False,Mo-Su 09:00-21:00
+node_11159452449,Belgian Waffle,18.9561284,72.8131928,C,Girgaon,cafe,cafe,unknown,False,False,False,False,
+node_11159468367,Canto Cafe & Bar,18.95647,72.8140224,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_11159473009,Vasant Bhuvan,18.9589107,72.8173066,C,Girgaon,cafe,cafe,unknown,False,False,False,False,
+node_11375956175,Cafe Sagar,18.9668801,72.8284709,C,Girgaon,restaurant,restaurant,pizza,False,True,False,False,Mo-Su 09:00-21:00
+node_11443658469,Cream Centre,18.955594,72.8133136,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,
+node_11443658569,New Yorker,18.9556326,72.8132334,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,
+node_11456227673,Anna Leela Veg Restaurant,18.9686154,72.8210412,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_11456230009,Central Sweets,18.9686237,72.8208979,C,Girgaon,fast_food,fast_food,unknown,False,False,False,False,
+node_11456281494,Portico Restaurant and Bar,18.9664278,72.8192196,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_11542402054,Revival,18.9546757,72.8148499,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_11637734870,Belgian waffles and ice cream,18.9560118,72.8127956,C,Girgaon,cafe,cafe,unknown,False,False,False,False,
+node_11962469384,7th Heaven Girgaon,18.9571447,72.8172193,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_12483967900,arfat,18.9679335,72.8268202,C,Girgaon,cafe,cafe,unknown,False,False,False,False,
+node_12483986406,Ramisha,18.9672594,72.8265402,C,Girgaon,fast_food,fast_food,unknown,False,False,False,False,
+node_12508947804,Starbucks coffee,18.9636696,72.8079229,C,Girgaon,cafe,cafe,coffee_shop,False,False,True,False,Mo-Su 09:00-22:00
+node_12529723939,Starbucks,18.956454,72.8119758,C,Girgaon,cafe,cafe,coffee_shop,True,False,True,True,Mo-Su 09:00-21:00
+node_12582378802,Shetty,18.9618863,72.8137743,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,We-Mo 08:00-22:00
+node_12679813301,Gustoso,18.9640179,72.8079079,C,Girgaon,restaurant,restaurant,italian,False,False,False,False,"Mo-Su 12:00-15:00, 19:00-23:30"
+node_12960706001,Juice Time,18.9559591,72.8162091,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 13:00-02:00
+node_12960706002,Sante Spa Cuisine,18.9563929,72.8155788,C,Girgaon,restaurant,restaurant,salad,False,False,False,False,Mo-Su 12:00-00:00
+node_13121666901,Sudama Pure Veg,18.9621211,72.8132636,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,
+node_13131079894,New Heros Restaurant,18.961163,72.8132611,C,Girgaon,restaurant,restaurant,indian,True,True,False,False,Mo-Su 11:00-00:00
+node_13142676701,Crystal Eastern Emporium,18.9560059,72.8120793,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,"Mo-Su 11:30-15:30, 19:00-22:30"
+node_13359577801,Geeta Bhavan - Balaji,18.9652774,72.819779,C,Girgaon,restaurant,restaurant,chinese,False,False,False,False,
+node_13752994701,Naturals,18.9676912,72.8202336,C,Girgaon,ice_cream,dessert,unknown,False,False,False,False,
+node_13797667525,Manohar Pav Bhaji,18.955324,72.8180876,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_13797673600,The Girgaum Kitchen - Girgaon द गिरगांव किचन - गिरगांव,18.9542623,72.8214369,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+node_13863638645,Thackers,18.9537804,72.8148405,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 11:30-15:00; 19:00-23:00
+node_13863638647,Asian Street Kitchen,18.9548548,72.8144865,C,Girgaon,restaurant,restaurant,asian,False,False,False,False,Mo-Su 12:00-15:30; 18:30-23:00
+way_39839316,Cinnabon,18.9606984,72.81259,C,Girgaon,fast_food,fast_food,dessert,True,False,False,True,Mo-Su 07:30-00:00
+way_48804708,B Merwan & Co Bakers,18.962461,72.8161899,C,Girgaon,restaurant,restaurant,unknown,False,False,False,False,
+way_1354007405,sukh sagar,18.9560886,72.8124773,C,Girgaon,restaurant,restaurant,indian,False,False,False,False,Mo-Su 10:00-22:00
+way_1380575750,Mumbai Bites,18.9553181,72.8188828,C,Girgaon,cafe,cafe,pizza,False,False,False,False,Mo-Sa 08:00-00:00
+node_459667350,Jai Hind,18.954073,72.7976688,D,Malabar Hill,restaurant,restaurant,unknown,False,False,False,False,
+node_4235550189,Dakshinayan,18.9477902,72.7973324,D,Malabar Hill,restaurant,restaurant,indian,False,False,False,False,"Mo-Sa 11:00-15:00, 18:00-23:00; Su 08:00-15:00, 18:00-23:00"
+node_8138350698,Kenorita Super Market,18.943606,72.794464,D,Malabar Hill,ice_cream,dessert,unknown,False,False,False,False,
+node_13697619170,The Nutcracker,18.9665434,72.8036912,D,Malabar Hill,restaurant,restaurant,unknown,False,False,False,False,
+node_1977972184,Tote on the Turf,18.9819716,72.8232049,E,Byculla,restaurant,restaurant,indian,False,False,False,False,
+node_4426326390,Bharat Bhuvan,18.9801621,72.8408053,E,Byculla,restaurant,restaurant,unknown,False,False,False,False,
+node_4839324927,Cafe national,18.9813317,72.8271069,E,Byculla,fast_food,fast_food,chinese,False,False,False,False,
+node_4839325526,Pizza sandwich,18.9814212,72.8269703,E,Byculla,fast_food,fast_food,unknown,False,False,False,False,
+node_11409102369,McDonald's,18.9806543,72.8265395,E,Byculla,fast_food,fast_food,burger,True,False,False,True,
+node_11581535149,Maharaja Cafe,18.9788845,72.8337008,E,Byculla,restaurant,restaurant,unknown,False,False,False,False,
+node_11610878101,Blue bead cafe,18.9770886,72.8308704,E,Byculla,cafe,cafe,coffee_shop,False,False,True,False,Mo-Su 10:00-22:00
+node_1977933168,Cafe Madras,19.0276726,72.8550473,FN,Sion,restaurant,restaurant,indian,False,False,False,False,"Tu-Su 07:00-14:30,16:00-22:30"
+node_3048179689,Juice Center,19.0383759,72.8534092,FN,Sion,cafe,cafe,indian,False,False,False,False,
+node_4844717543,Aparna,19.0453302,72.8648136,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_6201759585,Ayyappan Idli Stall,19.0327846,72.8544383,FN,Sion,restaurant,restaurant,indian,False,False,False,False,Mo-Su 07:00-23:00
+node_6534519657,Cafe Instaa,19.0419393,72.8611885,FN,Sion,cafe,cafe,unknown,False,False,True,False,
+node_8305227226,Gurukripa,19.042935,72.8618466,FN,Sion,restaurant,restaurant,indian,False,False,False,False,
+node_8985928233,Hotel shraddha,19.0455368,72.8647741,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_9035450017,McDonald's,19.0456195,72.8635005,FN,Sion,fast_food,fast_food,burger,True,False,False,True,
+node_9715914017,Radha Krishna,19.027895,72.8549919,FN,Sion,restaurant,restaurant,indian,False,False,False,True,
+node_10048588853,la pinoz's pizza,19.0425753,72.8614827,FN,Sion,fast_food,fast_food,pizza,False,False,False,False,
+node_11449378650,Sugar Rushh Cafe,19.042883,72.8644159,FN,Sion,cafe,cafe,unknown,False,False,False,False,
+node_11449425962,Apna Hotel,19.0504142,72.8650434,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_11449425963,Peninsula Veg,19.0427526,72.8644885,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_11449425964,Hanuman Veg Restaurant,19.0419569,72.8641543,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_11449426487,Cheers Restro Bar,19.0471045,72.8628054,FN,Sion,bar,bar,unknown,False,False,False,False,
+node_11449429775,Rehmat multi cuisine restaurant,19.0387731,72.8509166,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_11449434866,Mercy Hotel,19.0417268,72.85786,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_11449436712,Adarsh Sweets,19.0414993,72.8580789,FN,Sion,food_court,food_court,unknown,False,False,False,False,
+node_11449438344,Sangam Hotel,19.0481833,72.863567,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+node_12770185420,Chay Shay,19.0274647,72.8564074,FN,Sion,cafe,cafe,unknown,True,False,False,False,
+node_12770200745,Havmor,19.0272727,72.8562011,FN,Sion,ice_cream,dessert,unknown,False,False,False,True,"Mo-Fr 09:00-12:00,13:30-18:30; Sa 09:00-17:00; PH closed"
+node_12770224136,Ahar Restaurant,19.0273921,72.8563206,FN,Sion,restaurant,restaurant,indian,True,False,False,True,"Mo-Su 11:00-23:00,13:30-18:30; 09:00-17:00; PH closed"
+node_12770360101,Spoon Of Love Express,19.0275767,72.8557533,FN,Sion,cafe,cafe,unknown,True,False,False,True,
+node_12811690387,Sal Punjab Bar,19.0470902,72.8548738,FN,Sion,bar,bar,unknown,False,False,False,False,
+node_13324396403,Cafe Mysore,19.0275709,72.8554829,FN,Sion,restaurant,restaurant,unknown,False,False,False,False,
+way_1346339129,Saheel Restaurant,19.0474072,72.8607298,FN,Sion,restaurant,restaurant,chinese,False,False,False,False,Mo 07:00 - 00:30 Tu - Su 07:30 - 00:30
+way_1374675263,Sal Punjab Bar,19.0471011,72.8548848,FN,Sion,bar,bar,unknown,False,False,False,False,
+node_2131895195,Cafe Coffee Day,19.029206,72.8382235,FS,Mahim,cafe,cafe,coffee_shop,True,False,False,True,
+node_2273540883,Ganga Vihar Restaurant,19.0310254,72.845472,FS,Mahim,restaurant,restaurant,unknown,True,False,False,False,
+node_4341056410,Nandadeep Biscuit Mart,19.0335066,72.8391496,FS,Mahim,fast_food,fast_food,unknown,False,False,False,False,
+node_4344803101,Simply Delicious,19.0335658,72.839688,FS,Mahim,restaurant,restaurant,indian,False,False,False,False,
+node_4674815089,cafe trofima,19.0282957,72.8411776,FS,Mahim,cafe,cafe,pizza,False,False,False,False,Mo-Su 10:00-22:00
+node_4753990521,Barista,19.0293039,72.8379984,FS,Mahim,cafe,cafe,coffee_shop,True,False,False,True,
+node_4821879686,Irani Cafe,19.0390227,72.8428163,FS,Mahim,cafe,cafe,unknown,False,False,False,False,
+node_4846878576,And Chillis,19.0388685,72.8422221,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_4848782875,Third Wave Coffee Roasters,19.0408811,72.8461003,FS,Mahim,cafe,cafe,coffee_shop,True,True,False,True,
+node_5972234787,Shahnaz Restaurant,19.0411258,72.8407666,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_5972241985,Delhi Darbar,19.0410076,72.8407969,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 11:30-12:30
+node_6984478185,The chocolate heaven,19.0316071,72.8386046,FS,Mahim,cafe,cafe,unknown,False,False,False,False,
+node_9024163317,Coffee by Di Bella,19.0318344,72.8390596,FS,Mahim,cafe,cafe,unknown,False,False,False,False,
+node_11294890297,Baba Falooda,19.0398561,72.8413178,FS,Mahim,ice_cream,dessert,unknown,False,False,False,False,
+node_11294890306,Paramount Restaurant,19.0387603,72.8417951,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_11384605352,Domino's,19.0284293,72.8415765,FS,Mahim,fast_food,fast_food,pizza,True,False,False,True,
+node_12126380632,Love in Langos,19.0496371,72.8300463,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_12775789707,Tandoor Bar and Restaurant,19.0284643,72.8440878,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_12788008142,Baskin-Robbins,19.0403489,72.8411541,FS,Mahim,ice_cream,dessert,ice_cream,False,False,False,True,
+node_12788008143,Domino's,19.0402458,72.8411779,FS,Mahim,fast_food,fast_food,pizza,True,False,False,True,
+node_12841326489,Nasir Restaurant,19.0401284,72.8394544,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_13235113776,Step In Family Restaurant & Bar,19.038905,72.8423594,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+node_13235113778,99 Pancakes,19.0399513,72.8416932,FS,Mahim,restaurant,restaurant,pancake,False,False,False,False,
+node_13237835546,Subway,19.0410061,72.8461112,FS,Mahim,fast_food,fast_food,sandwich,True,False,False,True,
+way_40739096,Goa Portuguesa,19.031794,72.840334,FS,Mahim,restaurant,restaurant,goan,False,False,False,False,
+way_824809087,Dil Bahar Hotel,19.0452452,72.8466331,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+way_824809089,Shalimar,19.045423,72.8472601,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+way_824809118,The cake house,19.0451662,72.8475515,FS,Mahim,cafe,cafe,unknown,False,False,False,False,
+way_824809141,Abhinandan Family Restaurant and bar,19.04559,72.8480565,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+way_824809156,Nogauri Ama Milk center,19.0454303,72.8479324,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+way_824809183,Datar Darbar,19.0448,72.8478448,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+way_824809184,Datar Darbar,19.0447549,72.8478445,FS,Mahim,restaurant,restaurant,unknown,False,False,False,False,
+way_824826799,Bakery,19.045414,72.8471122,FS,Mahim,cafe,cafe,unknown,False,False,False,False,
+way_1227680048,masoli,19.0286708,72.8416755,FS,Mahim,restaurant,restaurant,fish,False,False,False,False,Mo-Su 08:00-21:00
+node_4674771690,Ram Ashray South Indian,19.0280158,72.8517121,GN,Dharavi,restaurant,restaurant,south_indian,False,False,False,False,"Mo-Su,PH 05:00-21:00"
+node_5696882729,Anna Coffee,19.0276804,72.852878,GN,Dharavi,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 20:00-12:00
+node_6367115268,A Rama Nayak's Shrikrishna Boarding,19.0273999,72.850662,GN,Dharavi,restaurant,restaurant,unknown,False,False,False,False,
+node_12760272282,Sainath Dosa Center,19.0270114,72.8544232,GN,Dharavi,fast_food,fast_food,south_indian,True,False,False,False,
+node_12770262735,Soufflé,19.0265362,72.8560887,GN,Dharavi,fast_food,fast_food,burger,True,False,False,False,
+node_12770262888,B. B. Gupta Bhelpuri House,19.026993,72.8545029,GN,Dharavi,fast_food,fast_food,breakfast,False,False,False,False,
+node_12770270267,The Belgian Waffle co,19.0266601,72.8546014,GN,Dharavi,fast_food,fast_food,unknown,False,False,False,False,
+node_12770270268,VJ Cafe,19.0266019,72.8546113,GN,Dharavi,fast_food,fast_food,unknown,True,False,True,False,
+node_12770307845,Dairy Cone,19.0266669,72.8561421,GN,Dharavi,ice_cream,dessert,unknown,True,False,False,False,
+node_12770327982,Giani's,19.0266236,72.8561189,GN,Dharavi,ice_cream,dessert,unknown,True,False,False,False,
+node_12770327983,The Dessert Republic,19.0266432,72.8561302,GN,Dharavi,ice_cream,dessert,unknown,True,False,True,False,
+node_13025860517,Shirke Vada Pav,19.0284665,72.8516525,GN,Dharavi,fast_food,fast_food,burger,False,False,False,False,
+node_3899362068,Light Of Bharat,19.0242417,72.8376485,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_4705646991,Aaswad,19.0256504,72.8405857,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,
+node_5209809870,Ashok Vada Pav,19.0205197,72.8313766,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,Mo-Sa 11:00-21:30
+node_5221682036,Gomantak Boarding House,19.0232897,72.8422028,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_6110255887,Saurashtra,19.0194416,72.8404862,GS,Dadar,fast_food,fast_food,indian,False,False,False,False,Mo-Su 07:00-21:00
+node_6187853585,Visawa,19.0195883,72.8407118,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 10:00-23:00
+node_6187853586,Tambe Aarogya Bhavan,19.0200638,72.840752,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,
+node_6201766085,Bhaji,19.0150397,72.8453947,GS,Dadar,fast_food,fast_food,breakfast,False,False,False,False,
+node_6367146879,Mani's Cafe,19.0262943,72.8506935,GS,Dadar,fast_food,fast_food,indian,False,False,False,False,
+node_6383339473,Cafe Coffee Day,19.0214663,72.8568552,GS,Dadar,cafe,cafe,coffee_shop,True,False,False,True,
+node_6985454769,Sharda Bhavan,19.0266841,72.8508606,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,Mo-Tu 07:30-20:30; Th-Su 07:30-20:30
+node_6985454770,Cafe Bogeto,19.0260121,72.8501726,GS,Dadar,fast_food,fast_food,italian,False,False,False,False,Mo-Su 10:30-23:00
+node_7132511485,Cafe Gulshan,19.0258324,72.8503463,GS,Dadar,restaurant,restaurant,persian,False,False,False,False,
+node_7132511486,Snow Point,19.0257457,72.8503732,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_8138278125,Oleaf green grocer,19.0264385,72.850534,GS,Dadar,ice_cream,dessert,unknown,False,False,False,False,
+node_10678399405,Utsav Restaurant,19.0152451,72.8306494,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,Mo-Su 11:00-23:30
+node_10688895851,Dadar Lucky Restaurant,19.0184204,72.8355487,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,Mo-Su 10:00-22:00
+node_11283018659,Koolar & Co,19.0260654,72.8550383,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_11362198269,DP's Fast Food Corner,19.0232212,72.8495362,GS,Dadar,fast_food,fast_food,chinese,False,False,False,False,
+node_11451935139,Adarsha Family Restaurant,19.0199692,72.8419124,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_11451935573,The Bar Stock exchange,19.0246598,72.8355266,GS,Dadar,bar,bar,unknown,False,False,False,False,
+node_11451942459,Starbucks,19.0252105,72.8359486,GS,Dadar,cafe,cafe,coffee_shop,True,False,False,True,
+node_11451942460,Tamnak Thai,19.0252725,72.8354777,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_11451984338,Made over donuts,19.0253693,72.8397943,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_11451989742,KFC,19.0250626,72.8414244,GS,Dadar,fast_food,fast_food,chicken,True,False,False,True,
+node_11451989747,Green restaurant and bar,19.0254993,72.8354998,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_11452004578,Terttulia,19.0255958,72.8353091,GS,Dadar,bar,bar,unknown,False,False,False,False,
+node_11452005242,Pizza Hut,19.0251733,72.8415058,GS,Dadar,restaurant,restaurant,pizza,False,False,False,True,
+node_11452005243,Naturals,19.0251825,72.835451,GS,Dadar,ice_cream,dessert,ice_cream,False,False,False,True,
+node_11452005244,Ice Cream works,19.0247461,72.8352477,GS,Dadar,ice_cream,dessert,unknown,False,False,False,False,
+node_11452007276,Baskin-Robbins,19.0252824,72.8399508,GS,Dadar,ice_cream,dessert,ice_cream,False,False,False,True,
+node_11452010575,Sandwizzaa,19.0259788,72.8363788,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,
+node_11452010577,Cryspy Frankie,19.0214096,72.839685,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,
+node_11452014433,Subway,19.0251283,72.841609,GS,Dadar,fast_food,fast_food,sandwich,True,False,False,True,
+node_11452014932,Costa,19.0256439,72.835739,GS,Dadar,cafe,cafe,coffee_shop,True,False,False,True,
+node_11452014933,Rajarajeswari Bhuvan Veg Delight,19.0256904,72.8356382,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_12185901900,hotel Udipi Ramdas,19.0262674,72.8434222,GS,Dadar,cafe,cafe,south_indian_cuisine,False,False,False,False,Mo-Su 06:30-21:00
+node_12306442151,House Of Misal,19.0223451,72.8424101,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_12337394180,McDonald's,19.0230074,72.8419885,GS,Dadar,fast_food,fast_food,burger,True,False,False,True,
+node_12337394181,Burger King,19.0228982,72.8421409,GS,Dadar,fast_food,fast_food,burger,True,False,False,True,
+node_12531357692,mani's,19.0227431,72.8494997,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,
+node_12538079008,manis cafe,19.0257013,72.8393226,GS,Dadar,cafe,cafe,south_indian,False,False,False,False,Mo-Su 10:00-20:00
+node_12770264193,Mani Cafe,19.0258534,72.8551118,GS,Dadar,cafe,cafe,unknown,True,False,True,True,"Mo-Fr 07:00-21:00,13:30-18:30; Sa 09:00-17:00; PH closed"
+node_12770269345,DJ's Darjeeling Momo,19.0260213,72.8550423,GS,Dadar,fast_food,fast_food,dumplings,False,False,False,False,
+node_12770299859,RAHUL'S,19.0259941,72.854975,GS,Dadar,fast_food,fast_food,curry,True,False,True,False,Mo-Su; PH closed
+node_12895990299,Oven Fresh,19.0238403,72.8381351,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,10:00-00:00
+node_13013445403,Trupti,19.0218791,72.8422497,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,Th-Tu 09:00-22:00
+node_13019062439,D Damodar,19.0179454,72.8472451,GS,Dadar,fast_food,fast_food,indian,False,False,False,False,
+node_13026558801,Shawarmaji,19.0257975,72.85527,GS,Dadar,fast_food,fast_food,chinese,False,False,False,False,
+node_13040591057,Bastian At The Top,19.0249945,72.8415353,GS,Dadar,restaurant,restaurant,seafood,False,False,False,False,Tu-Su 12:00-01:00
+node_13383226073,Cafe Colony Restaurant & Stores,19.0186376,72.8468361,GS,Dadar,cafe,cafe,unknown,False,False,False,False,
+node_13388438514,Praag Juice center,19.0183062,72.8472608,GS,Dadar,fast_food,fast_food,juice,False,False,False,False,
+node_13388448419,Jyoti,19.0172341,72.8478215,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,
+node_13388452070,Gunjal Fruit and Juice Center,19.0182508,72.8473568,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,
+node_13388454035,Keshav Rasvanti Gruh,19.0181475,72.847043,GS,Dadar,fast_food,fast_food,juice,False,False,False,False,
+node_13388481048,Aarey Sarita,19.0172395,72.8470929,GS,Dadar,fast_food,fast_food,juice,False,False,False,False,
+node_13388526975,Celejor,19.0183258,72.8475984,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,
+node_13388534191,The Theona,19.0217771,72.8504401,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_13388539804,Punjabi Chandu Halwai,19.0183404,72.8478121,GS,Dadar,fast_food,fast_food,indian,False,False,False,False,
+node_13388560743,Birdy's,19.0184438,72.847918,GS,Dadar,fast_food,fast_food,unknown,False,False,False,False,
+node_13388561444,Swagat Veg Treat,19.0183868,72.8478897,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_13506627015,Gold Rush,19.0229074,72.8383773,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_13506627021,Prakash,19.0231855,72.8386864,GS,Dadar,cafe,cafe,unknown,False,False,False,False,
+node_13506627026,Sujata,19.022768,72.8387543,GS,Dadar,restaurant,restaurant,unknown,False,False,False,False,
+node_13634287511,Cafe Muttuswami,19.0171496,72.8446127,GS,Dadar,restaurant,restaurant,indian,False,False,False,False,
+node_1560248754,Terminal food court,19.092192,72.8536714,HE,Santacruz East,fast_food,fast_food,unknown,False,False,False,False,
+node_10227105192,What The Fries,19.0801278,72.8537671,HE,Santacruz East,fast_food,fast_food,pizza,False,False,False,False,
+node_11069678652,Chitale Bandhu,19.0921641,72.8572109,HE,Santacruz East,fast_food,fast_food,unknown,False,False,False,False,
+node_11069678653,Oasis Lounge,19.0922376,72.8572364,HE,Santacruz East,bar,bar,unknown,False,False,False,False,
+node_11069678659,Cafeccino,19.0917053,72.8567979,HE,Santacruz East,cafe,cafe,unknown,False,False,False,False,
+node_11069678660,Haldiram's,19.091692,72.8568596,HE,Santacruz East,fast_food,fast_food,indian,True,False,False,True,
+node_11277065879,My Little Tea Pot,19.0825059,72.8574319,HE,Santacruz East,cafe,cafe,unknown,False,False,False,False,Mo-Su 09:00-21:00
+node_12408773235,Fries.com,19.0801058,72.8538114,HE,Santacruz East,cafe,cafe,burger,False,False,True,False,Mo-Su 09:00-21:00
+node_12415386368,Cafe Gulshan,19.0750493,72.8421734,HE,Santacruz East,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 09:00-20:00
+node_12536371673,radha krushma,19.0807897,72.8426176,HE,Santacruz East,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 08:00-21:00
+node_12536403663,gulshan cafe,19.0739809,72.8431413,HE,Santacruz East,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 10:00-22:00
+node_13235109727,Vaishno Food Point,19.0806835,72.8478844,HE,Santacruz East,fast_food,fast_food,unknown,False,False,False,False,
+node_13773028227,McDonald's,19.0805746,72.8411066,HE,Santacruz East,fast_food,fast_food,burger,True,False,False,True,
+node_13773028228,Burger King,19.0809471,72.8396804,HE,Santacruz East,fast_food,fast_food,burger,True,False,False,True,
+way_354066471,Hotel Radhakrishna,19.0833956,72.8428536,HE,Santacruz East,restaurant,restaurant,regional,False,False,False,False,Mo-Su 10:00-22:00
+way_1327051201,Cafe Montana,19.0835203,72.8440459,HE,Santacruz East,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 09:00-22:00
+way_1460053824,Gracias Granny,19.0786619,72.8376146,HE,Santacruz East,restaurant,restaurant,mexican,True,True,True,True,10:00-23:00
+way_1505434553,Starbucks,19.0785841,72.8376134,HE,Santacruz East,cafe,cafe,coffee_shop,True,False,True,True,
+node_1514451615,Hotel Samudra,19.0748494,72.8258483,HW,Santacruz West,restaurant,restaurant,south_indian,False,False,False,False,
+node_2680831253,Keep Kool Ice Cream & Food,19.074102,72.8283694,HW,Santacruz West,fast_food,fast_food,unknown,False,False,False,False,
+node_2719044956,Modern Tea House,19.0752035,72.8259183,HW,Santacruz West,cafe,cafe,unknown,False,False,False,False,
+node_3606640948,Me So Happy,19.0712279,72.8338775,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_6124434685,Shankar Bhel Sandwiches,19.0723694,72.8374764,HW,Santacruz West,fast_food,fast_food,sandwich,False,False,False,False,
+node_7047840108,KCROASTERS - By Koinonia,19.0731837,72.8263765,HW,Santacruz West,cafe,cafe,unknown,False,False,False,False,Mo-Su 08:00-21:30
+node_8347805191,Brenco Breweries,19.0761513,72.8272545,HW,Santacruz West,bar,bar,unknown,False,False,False,True,24/7
+node_10221860722,Ajivasan Hall,19.0864992,72.8309108,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_10221860821,Banana Leaf,19.0853517,72.8298349,HW,Santacruz West,restaurant,restaurant,indian,False,False,False,False,
+node_11054957005,Cecconi’s,19.0904176,72.8270788,HW,Santacruz West,restaurant,restaurant,italian,False,False,False,False,
+node_11372185903,Little Italy,19.0896644,72.8276046,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_11426727397,Pritam Da Dhaba,19.0913756,72.8278114,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_11426734643,Grandmama's Cafe,19.0913972,72.8277925,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_11518380934,Sesame - Hyatt Centric Juhu,19.0917013,72.8280071,HW,Santacruz West,restaurant,restaurant,pan_asian,False,False,False,False,Mo-Su 07:00-23:30
+node_11901183801,Starbucks,19.0756716,72.8317315,HW,Santacruz West,cafe,cafe,coffee_shop,True,False,False,True,
+node_12731973456,Naturals,19.0740923,72.8338185,HW,Santacruz West,ice_cream,dessert,ice_cream,False,False,False,True,
+node_12920034718,August Cafe,19.071019,72.8331048,HW,Santacruz West,cafe,cafe,unknown,False,False,False,False,
+node_13089348621,Khao Piyo,19.0715458,72.8338617,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_13097872628,National Milk Centre,19.0697501,72.8378884,HW,Santacruz West,fast_food,fast_food,unknown,False,False,False,False,
+node_13231494994,Third Wave Coffee Roasters,19.0847062,72.834941,HW,Santacruz West,cafe,cafe,coffee_shop,True,True,False,True,
+node_13231494998,Mazi,19.0845357,72.8351765,HW,Santacruz West,cafe,cafe,unknown,False,False,False,False,Mo-Su 08:00-23:00
+node_13238145683,The Bluebop Cafe,19.0726333,72.8343212,HW,Santacruz West,restaurant,restaurant,unknown,False,False,False,False,
+node_3289533443,Sahara,19.0796355,72.8799871,KE,Kurla,restaurant,restaurant,regional,False,False,False,False,
+node_3289533448,Skyway,19.0805957,72.8812014,KE,Kurla,restaurant,restaurant,regional,False,False,False,False,
+node_3289573073,Hotel Ravi Pure Veg,19.0747496,72.8709793,KE,Kurla,restaurant,restaurant,south_indian,False,False,False,False,
+node_3524664707,"Pondichery Cafe, Sofitel Hotel",19.0678286,72.8689535,KE,Kurla,cafe,cafe,regional,False,False,False,False,
+node_3529566936,GULAM MOHHAMED SHUBRATI BUILDING;suleman usman mithiwala,19.0621078,72.8769645,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_3532119179,Sheetal Restaurant,19.0647322,72.8823854,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_3532120654,cafe nar restarunt,19.064423,72.8818866,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_3532210535,sawali hotel,19.0630215,72.8828264,KE,Kurla,restaurant,restaurant,unknown,False,True,False,False,
+node_6580341105,Burn Bar and Kitchen,19.0722688,72.8703023,KE,Kurla,restaurant,restaurant,mexican,False,False,False,False,Mo-Su 11:30-02:30
+node_10779234885,Hitchki,19.0695355,72.869828,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_11432071328,Nityanand Family Restaurant,19.0805224,72.8897014,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_11432077437,Tiffins,19.0804748,72.8894691,KE,Kurla,fast_food,fast_food,unknown,False,False,False,False,
+node_11449378649,Domino's,19.0752931,72.8767607,KE,Kurla,fast_food,fast_food,pizza,True,False,False,True,
+node_11451543495,Hotel Sitaram,19.0831187,72.8851007,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_11451948925,Istanbul Darbar,19.0790685,72.8799913,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 08:00-23:00
+node_11452002809,PizzaExpress,19.0692375,72.8694557,KE,Kurla,restaurant,restaurant,pizza,False,False,False,True,
+node_11452008048,SHAHI Dessert and Fast Food Juice,19.0824643,72.8822461,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_11452014432,Karizma Dhaba,19.0770406,72.8780007,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_11452017570,Sunlight Restaurant,19.0816717,72.8817638,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_11587668954,My Little Tea Pot,19.0781157,72.8671645,KE,Kurla,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 09:00-21:00
+way_359780137,Deluxe Restaurant,19.0726519,72.8761432,KE,Kurla,restaurant,restaurant,unknown,False,False,False,False,
+node_2071267071,Red Box,19.1399689,72.8313705,KW,Andheri West,restaurant,restaurant,chinese,False,False,False,False,
+node_2071267387,Caravan Serai,19.13986,72.8313893,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_2124836823,Shreeji's,19.148777,72.8316241,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_2125053356,Infinity Mall Food Court,19.1412504,72.8310858,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_2125146883,Delicacy Of China,19.1421445,72.829096,KW,Andheri West,restaurant,restaurant,chinese,False,False,False,False,
+node_2125146897,Sandwizzaa,19.1420584,72.8290879,KW,Andheri West,fast_food,fast_food,sandwich,False,False,False,False,
+node_2125146906,Costa,19.1420001,72.8290745,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_2125165377,Third Wave Coffee Roasters,19.1466604,72.8287469,KW,Andheri West,cafe,cafe,coffee_shop,True,True,False,True,
+node_2125165395,Starbucks,19.1465656,72.829164,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_2125320195,Cafe Coffee Day,19.141372,72.8312307,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_2125320197,Subway,19.141068,72.8311556,KW,Andheri West,fast_food,fast_food,sandwich,True,False,False,True,
+node_2125324753,Di Bella Coffee,19.1253994,72.8222426,KW,Andheri West,cafe,cafe,coffee_shop,False,False,False,False,
+node_2125326735,Nom Nom,19.1252302,72.8223454,KW,Andheri West,restaurant,restaurant,asian,False,False,False,False,
+node_2125326739,Banana Leaf,19.125049,72.8225121,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,Mo-Su 09:00-21:00
+node_2126250492,Mainland China,19.1414769,72.8323049,KW,Andheri West,restaurant,restaurant,chinese,False,False,False,False,"Fr-Tu 12:00-15:30,19:00-23:30, We,Th 12:00-01:00"
+node_2130342936,Third Wave Coffee Roasters,19.1290999,72.817759,KW,Andheri West,cafe,cafe,coffee_shop,True,True,True,True,
+node_2148660919,Some Like It Hot,19.1343689,72.8263899,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_2148661125,Radha Krishna,19.1344031,72.825419,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,"Mo-Su 11:00-15:00, 19:00-23:00"
+node_2189763326,The Courtyard,19.1315553,72.837364,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_2363117996,Indigo Deli,19.1366014,72.8274576,KW,Andheri West,restaurant,restaurant,international,False,False,False,False,
+node_2364363843,Oh Calcutta! Express,19.1396292,72.826996,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_2364385923,Astro Cafe,19.1373689,72.8294395,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_2365365543,Chocolateria San Churro,19.1393928,72.8314734,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_2365365562,Alfredo's Bar And Diner,19.1394688,72.8314681,KW,Andheri West,restaurant,restaurant,italian,False,False,False,False,
+node_2365365573,Carter's Blue,19.1395722,72.8314527,KW,Andheri West,fast_food,fast_food,mediterranean,False,False,False,False,
+node_2365365585,The Chocolate Room,19.1393377,72.8314766,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_2365365592,Debonair Pizza,19.1396452,72.8314506,KW,Andheri West,fast_food,fast_food,pizza,False,False,False,False,
+node_2366784005,Almond Flower,19.145159,72.8294735,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_2370526133,Cafe Coffee Day,19.1374036,72.8271916,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_2590293389,Debonair's Pizza,19.1254375,72.8222001,KW,Andheri West,restaurant,restaurant,pizza,False,False,False,False,
+node_3008644986,Cafe Coffee Day,19.1319124,72.832721,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_3221689756,Pebbles,19.1406806,72.8319318,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_3221694302,Kailash Parbat,19.140888,72.831892,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_3226547544,Pishu's,19.136433,72.8288475,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_3293516346,Burger King,19.1413314,72.8310882,KW,Andheri West,fast_food,fast_food,burger,True,False,False,True,
+node_3293516347,Starbucks,19.141731,72.8309285,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_3630342040,Gettogether,19.1287104,72.8257708,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_3687744159,Swades,19.1298351,72.818126,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_3771463609,Mamagoto,19.1406213,72.8339783,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_3791147462,Sharma Fast Food,19.1291201,72.8258675,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_3903081147,Pizza Box,19.1286367,72.8206353,KW,Andheri West,restaurant,restaurant,pizza,False,False,False,False,
+node_3921991022,Urban Tadka,19.1268334,72.8217224,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_3980133295,Blue Park,19.1305037,72.8187534,KW,Andheri West,restaurant,restaurant,regional,False,False,True,False,
+node_3981585574,Zoodles,19.1494495,72.8312819,KW,Andheri West,fast_food,fast_food,south east asian,False,False,False,False,
+node_4051431789,Amritsari Tadka,19.1290697,72.8219944,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_4590912467,Versova Social,19.1263675,72.8205036,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_4924405451,Off The Grid,19.1404949,72.8333182,KW,Andheri West,restaurant,restaurant,italian,False,False,False,False,
+node_4951965621,Hard Rock Cafe,19.1360221,72.8355486,KW,Andheri West,restaurant,restaurant,american,False,False,False,True,
+node_4970562243,One Point Six,19.1266104,72.8207329,KW,Andheri West,cafe,cafe,cafe,False,False,False,False,
+node_6565133285,Bennies by Flags,19.1438494,72.8291669,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,Mo-Su 12:00-00:00
+node_6908315507,Eden Goodness Cafe,19.1489182,72.8322127,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_7159653244,Jumbo King,19.1290992,72.8219615,KW,Andheri West,fast_food,fast_food,burger,True,False,False,True,
+node_7160197819,Urban Tadka,19.1344047,72.8261679,KW,Andheri West,restaurant,restaurant,north_indian,False,False,False,False,
+node_7162138708,My Froyoland,19.1365344,72.8287587,KW,Andheri West,ice_cream,dessert,unknown,False,False,False,False,
+node_7162138709,Silver Beach Cafe,19.1365431,72.8288816,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_7162138710,Chai Pe Charcha,19.1367205,72.8287521,KW,Andheri West,cafe,cafe,tea,False,False,True,False,
+node_7425718016,McDonald's,19.14113,72.8254739,KW,Andheri West,fast_food,fast_food,burger,True,False,False,True,
+node_7425718027,Tim Hortons,19.147313,72.8229751,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_7426184232,Lebanese Point,19.1411463,72.8248928,KW,Andheri West,restaurant,restaurant,lebanese,False,False,False,False,
+node_7426184237,Monsoon Chaat Corner,19.1431939,72.8246503,KW,Andheri West,fast_food,fast_food,chaat,False,False,False,False,
+node_7426184239,Breadkraft,19.1426922,72.8246504,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_7426184248,Nature's Basket,19.1454282,72.8292549,KW,Andheri West,ice_cream,dessert,unknown,False,False,False,True,
+node_7426184252,Bistro 1,19.1367233,72.8289402,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_7439524969,Starbucks,19.1473483,72.8235287,KW,Andheri West,cafe,cafe,coffee_shop,True,False,False,True,
+node_9080857996,Cafe Pefe,19.14119,72.8273496,KW,Andheri West,cafe,cafe,coffee_shop,False,True,True,False,Mo-Su 11:00-23:00
+node_9120887949,Pishu's,19.1283482,72.825145,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_9130241611,The Flying Saucer,19.1393769,72.8320582,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_9132742307,Nagori Irani Chai,19.1439765,72.8315222,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_9132742310,Baba Ka Dhaba,19.1440644,72.8315177,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,
+node_9132758779,Chinese Express,19.1432285,72.8315366,KW,Andheri West,fast_food,fast_food,unknown,True,True,False,False,
+node_9132764340,M Town Cafe,19.1429429,72.831573,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_9132850195,Sumati,19.1276142,72.832491,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_9134871901,PizzaExpress,19.1320723,72.8347455,KW,Andheri West,restaurant,restaurant,pizza,False,False,False,True,
+node_9137914471,Sai Kripa Sandwich Center,19.1285058,72.8254022,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_9137914472,Shankar Vada Pav Center,19.1284493,72.8253821,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_9139640433,Gupta Vadapav Center,19.1363608,72.8215805,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_9139716424,Chai Gaadi,19.141208,72.8197968,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_9505205402,cafe cafe,19.1451886,72.8232992,KW,Andheri West,cafe,cafe,coffee_shop,False,False,True,False,24/7
+node_9828587930,Karim’s,19.136663,72.8282452,KW,Andheri West,restaurant,restaurant,mughlai,False,False,False,False,
+node_10779536078,Whatta Waffle,19.1295341,72.818974,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_10779536079,Doof,19.1292975,72.819105,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_10925550784,Pop Tate's,19.141462,72.8336248,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_11081366727,Naga Belly,19.1297396,72.8247736,KW,Andheri West,restaurant,restaurant,indian,False,False,False,False,"Mo-Su 12:00-16:00,18:30-23:00"
+node_11341347607,Modern Aaji,19.1300624,72.8178585,KW,Andheri West,restaurant,restaurant,maharashtrian,False,True,False,False,"10:30-15:30,19:30-24:00"
+node_12328160372,Jai Bajrang Bali,19.1364074,72.8216117,KW,Andheri West,fast_food,fast_food,chaat,False,False,False,False,
+node_12328165734,The Trans Café,19.1362433,72.8214729,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_12395671885,Shot Stories,19.1348644,72.8327535,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_12395684114,The Irish House,19.1348437,72.833004,KW,Andheri West,bar,bar,unknown,False,False,False,False,
+node_12395684148,McDonald's,19.1349474,72.8330032,KW,Andheri West,fast_food,fast_food,burger,True,False,False,True,
+node_12395684150,Cream Centre,19.1348178,72.8327917,KW,Andheri West,restaurant,restaurant,chinese,False,False,False,False,
+node_12395684151,Osteria,19.1361347,72.8334523,KW,Andheri West,bar,bar,unknown,False,False,False,False,
+node_12395684160,Starbucks,19.135472,72.8333852,KW,Andheri West,cafe,cafe,coffee_shop,True,False,True,True,
+node_12395684166,Era,19.1362869,72.8333984,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_12395684205,Si Nonna's,19.1348075,72.8329394,KW,Andheri West,restaurant,restaurant,pizza,False,False,False,False,
+node_12400637172,Jacky Bhel Puri,19.1457244,72.8229074,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_12400639951,Hurrycane,19.14569,72.8228802,KW,Andheri West,fast_food,fast_food,sugarcane_juice,True,False,False,False,
+node_12486490189,Naturals,19.1416709,72.8254868,KW,Andheri West,ice_cream,dessert,ice_cream,False,False,False,True,
+node_12651939165,Punjab Sweet House,19.1405141,72.826116,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_12900460722,The Little Door,19.1393909,72.8333522,KW,Andheri West,bar,bar,unknown,False,False,False,False,Mo-Su 17:00-02:00
+node_12946834537,Made Of Milk,19.1407208,72.8257633,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_12946834538,Punjab Sweet House,19.1403155,72.8259581,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_13207620987,Engine Espresso,19.143004,72.8200471,KW,Andheri West,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 19:00-00:30
+node_13240420105,Chaayos,19.129874,72.8241536,KW,Andheri West,cafe,cafe,tea,True,False,False,True,07:00-00:00
+node_13240641105,Chinese Wok,19.1297295,72.8248421,KW,Andheri West,fast_food,fast_food,chinese,True,False,False,False,"Mo-Su,PH 11:00-23:00,11:00-23:00"
+node_13240644254,Umamiya Cafe,19.1298396,72.8226024,KW,Andheri West,cafe,cafe,coffee_shop,False,False,False,False,09:00-23:00
+node_13240652679,Kake Da Hotel,19.1298679,72.8242523,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_13240668619,Food Monkey,19.1301935,72.8227685,KW,Andheri West,fast_food,fast_food,wrap,True,False,True,False,
+node_13240691501,Nuvola,19.1298103,72.8227582,KW,Andheri West,ice_cream,dessert,unknown,True,False,False,False,
+node_13240697692,Oye Churros,19.1298352,72.8225741,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_13240703262,Gelato Nuvola Artigianale,19.1298136,72.8227063,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_13240703523,The Berliner Bar,19.130256,72.822479,KW,Andheri West,restaurant,restaurant,german,True,False,True,False,
+node_13240706274,Therapy,19.1300633,72.8216793,KW,Andheri West,bar,bar,unknown,False,False,False,False,
+node_13240712180,Lil Gamby Pizza Shop,19.1303182,72.822149,KW,Andheri West,fast_food,fast_food,pizza,True,True,True,False,
+node_13240712181,Bombay Brioche,19.1303121,72.8221824,KW,Andheri West,fast_food,fast_food,sandwich,False,False,True,False,08:00-24:00
+node_13240712182,Starbucks,19.1303326,72.8221085,KW,Andheri West,cafe,cafe,coffee_shop,True,False,True,True,08:00-04:00
+node_13240721808,Jumbo King,19.1297246,72.8221953,KW,Andheri West,fast_food,fast_food,burger,True,False,False,True,
+node_13240721987,Peppr Pinch,19.129564,72.8221457,KW,Andheri West,fast_food,fast_food,unknown,True,False,False,False,
+node_13240727139,Appointment,19.1300266,72.8217466,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_13240728441,7 Hills Resto + Bar,19.1300687,72.8214482,KW,Andheri West,restaurant,restaurant,unknown,True,False,False,False,
+node_13240731389,Rice Bowl,19.1300836,72.8214193,KW,Andheri West,cafe,cafe,unknown,False,False,True,False,
+node_13377471371,The House of Swad,19.1303235,72.8183901,KW,Andheri West,fast_food,fast_food,regional,False,False,False,False,
+node_13383588853,Sadakchaap,19.1278979,72.8291702,KW,Andheri West,fast_food,fast_food,unknown,False,False,True,False,
+node_13387730672,Gupta Juice Center,19.1363817,72.8215862,KW,Andheri West,fast_food,fast_food,unknown,False,False,False,False,
+node_13475422677,Pair A Dice Boardgames Cafe,19.1482697,72.8316484,KW,Andheri West,cafe,cafe,italian,False,False,False,False,
+node_13510320673,BaaMee,19.1316741,72.8345422,KW,Andheri West,restaurant,restaurant,unknown,False,False,True,False,
+node_13510320699,Persian Darbar,19.1327471,72.8299108,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_13510337602,Tamarind Tiffin by Sunders,19.1317488,72.8341147,KW,Andheri West,restaurant,restaurant,indian,False,False,True,False,
+node_13516940276,Domino's,19.1306223,72.8374784,KW,Andheri West,fast_food,fast_food,pizza,True,False,False,True,
+node_13516940282,Third Wave Coffee Roasters,19.1349622,72.832426,KW,Andheri West,cafe,cafe,coffee_shop,True,True,False,True,
+node_13572272192,Blue Tokai Coffee Roasters,19.146636,72.8291387,KW,Andheri West,cafe,cafe,coffee_shop,True,False,True,False,
+node_13582456929,Javaphile,19.1472531,72.8236842,KW,Andheri West,cafe,cafe,unknown,False,False,False,False,
+node_13597205705,Rajput Dairy Farm,19.1432065,72.8244061,KW,Andheri West,fast_food,fast_food,nagori_tea,False,False,False,False,
+node_13607409339,Rasotsav,19.1398054,72.8295727,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,False,
+node_13753100247,Subway,19.1273555,72.8375553,KW,Andheri West,fast_food,fast_food,sandwich,True,False,False,True,
+node_13781536743,Coffee By Di Bella,19.1468063,72.8286957,KW,Andheri West,cafe,cafe,unknown,False,False,True,False,09:00-01:00
+way_1077916495,Knoshh - The Food Hall,19.126962,72.829047,KW,Andheri West,restaurant,restaurant,burger,True,False,False,False,24/7
+way_1342736882,High Point,19.1442361,72.82413,KW,Andheri West,fast_food,fast_food,indian,True,True,False,False,Mo-Su 09:00-23:30
+way_1442763223,Yazu Pan Asian Supper Club,19.1415999,72.8299081,KW,Andheri West,restaurant,restaurant,asian,False,False,False,True,Mo-Su 12:00-01:30
+way_1442763229,Juliette Café and Bar,19.1416007,72.8300306,KW,Andheri West,restaurant,restaurant,unknown,False,False,False,True,Mo-Su 08:00-01:30
+way_1442763231,KiCo,19.1416031,72.8301675,KW,Andheri West,bar,bar,unknown,False,False,False,False,Mo-Su 17:00-01:30
+way_1479855070,Yasin's Food Inn,19.1413156,72.8253263,KW,Andheri West,restaurant,restaurant,mughlai,True,False,False,False,
+way_1479855071,High Point,19.1441979,72.8241538,KW,Andheri West,fast_food,fast_food,indian,False,False,True,False,Mo-Su 09:00-23:30
+way_1482765588,Domino's,19.1413767,72.8248307,KW,Andheri West,fast_food,fast_food,pizza,True,False,False,True,
+way_1504184366,Baskin-Robbins,19.1457865,72.823212,KW,Andheri West,ice_cream,dessert,unknown,False,False,False,True,
+node_1398698904,SADGURU RESTAURANT,19.0622302,72.9007583,L,Kurla East,restaurant,restaurant,unknown,False,False,False,False,
+node_3202768659,mahatma nagar,19.0644019,72.9018073,L,Kurla East,cafe,cafe,regional,False,False,False,False,
+node_3204476109,Domino's,19.0542862,72.8932735,L,Kurla East,restaurant,restaurant,pizza,False,False,False,True,Mo-Su 09:00-21:00
+node_3214503592,Barista,19.0518758,72.9007969,L,Kurla East,cafe,cafe,coffee_shop,True,False,False,True,
+node_3483943994,Tea Ville Cafe,19.0559886,72.9007064,L,Kurla East,cafe,cafe,unknown,False,False,False,False,
+node_5738795254,Naturals,19.0527318,72.8996878,L,Kurla East,ice_cream,dessert,ice_cream,True,False,False,True,Mo-Su 11:00-24:00
+node_6100554814,Via Bombay,19.0614924,72.8997348,L,Kurla East,restaurant,restaurant,unknown,False,False,False,False,
+node_6187655615,Geeta Bhawan,19.0607375,72.9003482,L,Kurla East,restaurant,restaurant,indian,False,False,True,False,
+node_9021968826,The J,19.0528205,72.8998015,L,Kurla East,fast_food,fast_food,unknown,False,False,False,False,
+node_9655548017,Subway,19.0521598,72.8997732,L,Kurla East,fast_food,fast_food,sandwich,True,False,False,True,Mo-Su 10:00-22:00
+node_9655548117,Le Cafe,19.0614113,72.8996735,L,Kurla East,cafe,cafe,unknown,False,False,False,False,
+node_11283018639,Lucky Restaurant,19.0517597,72.9010567,L,Kurla East,restaurant,restaurant,unknown,False,False,False,False,
+node_11295364150,Cafe Coffee Day Express,19.0563701,72.8896149,L,Kurla East,cafe,cafe,unknown,False,False,False,False,
+node_11587655947,Mani's,19.061043,72.8985203,L,Kurla East,restaurant,restaurant,south_indian,False,False,False,False,Tu-Su 07:30-22:00
+node_12844068558,Tastings,19.0527277,72.899767,L,Kurla East,fast_food,fast_food,indian,True,False,True,False,
+node_12944621778,Kha,19.0527939,72.8997902,L,Kurla East,fast_food,fast_food,unknown,True,False,True,False,
+node_12944652087,Nothing But Chicken,19.0521322,72.8998766,L,Kurla East,fast_food,fast_food,unknown,False,False,False,False,
+node_12944653246,Wok hei,19.0521091,72.8999995,L,Kurla East,restaurant,restaurant,chinese,False,False,False,False,
+node_12944660714,Wow! Momo,19.052715,72.8997328,L,Kurla East,fast_food,fast_food,momo,True,False,False,True,
+node_12944665665,Nom Nom express,19.0521518,72.899802,L,Kurla East,restaurant,restaurant,unknown,False,False,False,False,
+node_12944665667,Sandwizzaa,19.0521415,72.8998283,L,Kurla East,restaurant,restaurant,sandwich,True,False,False,False,
+node_12944677450,The Kerala Cafe,19.0527402,72.8995896,L,Kurla East,fast_food,fast_food,indian,False,False,False,False,
+node_12944966334,Sadakchaap,19.0576139,72.8984145,L,Kurla East,fast_food,fast_food,unknown,False,False,True,False,
+node_13152642326,Dominos,19.0543136,72.8932744,L,Kurla East,fast_food,fast_food,pizza,False,False,False,False,Mo-Su 09:00-21:00
+node_13430508321,OilAllDay,19.0478365,72.8951842,L,Kurla East,fast_food,fast_food,pizza,False,True,False,True,Mo-Su 09:00-21:00
+node_13594626765,Ratnagiri,19.0608822,72.9004014,L,Kurla East,restaurant,restaurant,unknown,False,False,False,False,
+node_13594629153,Burger King,19.061016,72.9004425,L,Kurla East,fast_food,fast_food,unknown,False,False,False,False,
+way_353415856,Sadguru,19.0614056,72.8997653,L,Kurla East,restaurant,restaurant,indian,True,False,True,False,
+way_353425056,Chembur Adda,19.0641734,72.8941406,L,Kurla East,restaurant,restaurant,chicken,True,False,False,False,Mo-Su 08:00-22:00
+way_353987037,pinky store,19.0504991,72.891316,L,Kurla East,cafe,cafe,unknown,False,False,False,False,
+way_1408576356,Gracias Granny,19.0573021,72.8979945,L,Kurla East,restaurant,restaurant,mexican,True,True,True,True,10:00-23:00
+way_1471905406,Saroj,19.0535182,72.8861999,L,Kurla East,restaurant,restaurant,indian,False,False,False,False,Mo-Su 10:00-22:00
+node_2567541050,TISS Dining Hall,19.0431931,72.9119332,ME,Govandi,restaurant,restaurant,cafeteria,False,False,False,False,
+node_2930683935,Cold Cafee,19.0597612,72.9103571,ME,Govandi,cafe,cafe,unknown,False,False,False,False,
+node_3202952843,king bar,19.0543924,72.9158261,ME,Govandi,bar,bar,unknown,False,False,False,True,
+node_3204250715,CCD,19.0597908,72.9091003,ME,Govandi,bar,bar,unknown,False,False,False,True,0:00-24:00
+node_3204438064,drfg,19.048368,72.9221477,ME,Govandi,cafe,cafe,unknown,False,False,False,False,
+node_3204446651,hanuman bar,19.0594944,72.9132554,ME,Govandi,bar,bar,unknown,False,False,False,True,0:00-24:00
+node_3204516266,karan cafe,19.0420352,72.9164383,ME,Govandi,cafe,cafe,unknown,False,False,False,False,
+node_3204881746,Ganesh Tea Center,19.0603312,72.9105858,ME,Govandi,cafe,cafe,unknown,False,False,False,False,
+node_3205970175,Saidip restarant & Bar,19.0492313,72.9269816,ME,Govandi,restaurant,restaurant,unknown,False,False,False,False,
+node_3213759879,jyoti restaurant,19.0600003,72.911585,ME,Govandi,restaurant,restaurant,pizza,False,False,False,False,
+node_3213866933,vadhavi resturant,19.0485285,72.918976,ME,Govandi,restaurant,restaurant,unknown,False,False,False,False,
+node_3529545078,Shubalaxmi,19.0460553,72.9098383,ME,Govandi,restaurant,restaurant,unknown,False,False,False,False,"Mo-Su,PH 09:00-23:00"
+node_3803560476,Anna Tapari,19.0453775,72.9139348,ME,Govandi,cafe,cafe,regional,False,False,False,False,
+node_5495334229,Sai Darbar,19.0498802,72.9261006,ME,Govandi,restaurant,restaurant,unknown,False,False,False,False,
+node_9019764217,India Bistro,19.0460434,72.9148183,ME,Govandi,restaurant,restaurant,chinese,False,False,False,False,
+node_9019764218,Shai Cafe and Bar,19.0455769,72.9032091,ME,Govandi,restaurant,restaurant,pizza,False,False,False,False,
+node_9019764317,China Bistro,19.0463004,72.9148868,ME,Govandi,restaurant,restaurant,chinese,False,False,False,False,
+node_9019772817,Domino's Pizza,19.0525244,72.9142689,ME,Govandi,fast_food,fast_food,pizza,False,False,False,False,
+node_9021968529,Baskin Robbins,19.0514575,72.9020741,ME,Govandi,ice_cream,dessert,unknown,False,False,False,False,
+node_9024157417,Sadguru Veg Diet,19.0456916,72.9020342,ME,Govandi,restaurant,restaurant,indian,False,False,False,False,
+node_11098485521,Pot Pourri,19.0453834,72.9029559,ME,Govandi,restaurant,restaurant,unknown,False,False,False,False,
+node_11844937156,The Bar Stock Exchange,19.0455733,72.9031092,ME,Govandi,bar,bar,unknown,False,False,False,False,
+node_11844937157,Nxt Level All Day Chembur,19.0466766,72.9069856,ME,Govandi,restaurant,restaurant,unknown,False,False,False,False,
+way_480788776,BARC Hospital Canteen,19.0425409,72.9157767,ME,Govandi,restaurant,restaurant,indian,False,False,False,False,"PH,Mo-Su 07:00-23:00"
+node_3204495277,lucky restaurant,19.0612649,72.9067792,MW,Chembur,restaurant,restaurant,pizza,False,False,False,False,
+node_3204517061,Sadguru,19.068838,72.9059636,MW,Chembur,restaurant,restaurant,indian,False,False,False,False,
+node_3205968767,ccd,19.0633635,72.9040535,MW,Chembur,cafe,cafe,unknown,False,False,False,False,
+node_3213755719,Ram cafe,19.0666508,72.9104239,MW,Chembur,cafe,cafe,unknown,False,False,False,False,
+node_12866469427,Maggi Point,19.0730195,72.8991922,MW,Chembur,food_court,food_court,unknown,False,False,False,True,
+node_12875125560,Jimmy Boy Canteen,19.0734163,72.8977693,MW,Chembur,fast_food,fast_food,unknown,False,False,False,False,
+node_12887977982,Engineering School Canteen,19.0732124,72.9001911,MW,Chembur,fast_food,fast_food,unknown,False,False,False,False,
+way_314367859,rozy ...noodle khaoo bhuk mitaao noodle khao,19.0626559,72.9047195,MW,Chembur,restaurant,restaurant,regional,False,False,False,False,
+node_3205771060,Abhinandan,19.0961478,72.9151919,N,Ghatkopar,restaurant,restaurant,indian,False,False,False,False,
+node_3636812246,Bhakari Ghar,19.087102,72.9114295,N,Ghatkopar,restaurant,restaurant,indian,True,False,False,False,
+node_4373090598,puspa vihar hotel,19.0732831,72.9085419,N,Ghatkopar,fast_food,fast_food,unknown,False,False,False,False,
+node_5456840421,The Spice Court,19.095671,72.9143464,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_5609869298,Bhau Vada Pav,19.0863549,72.908522,N,Ghatkopar,fast_food,fast_food,unknown,False,False,False,False,Mo-Su 09:00-21:30
+node_6226601604,Jai Bhavani Restaurant,19.0945851,72.8981416,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_6322320328,Cafe Coffee Day,19.0744165,72.9052818,N,Ghatkopar,cafe,cafe,unknown,False,False,False,True,
+node_7202827018,Cafe Coffee Day,19.0790665,72.9057221,N,Ghatkopar,cafe,cafe,coffee_shop,True,False,False,True,Mo-Su 09:00-21:00
+node_7202827019,Baskin-Robbins,19.079278,72.9059879,N,Ghatkopar,ice_cream,dessert,ice_cream,False,False,True,True,
+node_9128712392,Hotel Popular,19.0821099,72.9099078,N,Ghatkopar,restaurant,restaurant,regional,False,False,False,False,
+node_9129138286,Scoop,19.0803945,72.9084234,N,Ghatkopar,ice_cream,dessert,unknown,False,False,False,False,
+node_9129210434,Gurukrupa Restaurant,19.079705,72.9061157,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_9129210435,Achija Restaurant,19.0801689,72.9054558,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_9134234507,Agarwal Juice Centre,19.0789209,72.9088516,N,Ghatkopar,fast_food,fast_food,juice,False,False,False,False,
+node_9523373451,Jugnu Soda Pub,19.0755305,72.9053566,N,Ghatkopar,fast_food,fast_food,unknown,False,False,False,False,
+node_10720953805,The Food Town,19.0822752,72.8953991,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_11257204477,POPULAR CAFE,19.0821532,72.9099141,N,Ghatkopar,cafe,cafe,indian,False,False,False,False,Tu-Sa 10:00-19:00
+node_11430506423,silverbeach,19.0766017,72.9024205,N,Ghatkopar,cafe,cafe,german,False,False,False,False,24/7
+node_11464716224,Hanuman Hotel,19.0807466,72.8961211,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_11464728721,Lark pure Veg Restaurant,19.0799492,72.8956772,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_11464734826,Hrezzo Restaurant,19.0821531,72.8953863,N,Ghatkopar,restaurant,restaurant,unknown,False,False,False,False,
+node_12312152034,Bharat Cafe,19.0856764,72.9074165,N,Ghatkopar,restaurant,restaurant,coffee_shop,False,False,False,False,Mo-Su 10:00-22:00
+node_12327324799,Triospice Restaurant (Roof Top),19.0852202,72.9090456,N,Ghatkopar,restaurant,restaurant,indian,False,True,False,False,Mo-Su 12:00-02:00
+node_12387804302,Meghdoot Restaurant & Bar,19.087103,72.9087019,N,Ghatkopar,restaurant,restaurant,indian,False,False,False,False,
+node_12387808601,McDonald's,19.0869069,72.9089072,N,Ghatkopar,fast_food,fast_food,burger,False,False,False,False,
+node_13033811632,majama cafe,19.0837372,72.9091122,N,Ghatkopar,cafe,cafe,pizza,False,False,False,False,
+node_13041479722,barista cafe,19.0744275,72.905279,N,Ghatkopar,cafe,cafe,unknown,False,False,False,False,
+node_13041479723,barista,19.0745774,72.9053095,N,Ghatkopar,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 09:00-21:00
+node_13041479724,bhagat tarachand,19.0832672,72.9093889,N,Ghatkopar,restaurant,restaurant,indian,False,False,False,False,Mo-Su 09:00-21:00
+node_13041513158,gupta sandwich,19.0817283,72.9066545,N,Ghatkopar,restaurant,restaurant,pizza,False,False,False,False,Mo-Su 09:00-21:00
+node_13041514626,99 pancakes,19.0798703,72.9057679,N,Ghatkopar,cafe,cafe,pancake,False,False,False,False,
+node_13041521228,the belgian waffle,19.0799221,72.9063661,N,Ghatkopar,cafe,cafe,waffle,False,False,False,False,Mo-Su 09:00-21:00
+node_13096583490,starbucks,19.0777792,72.9073038,N,Ghatkopar,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 07:00-22:00
+node_13096612324,blossom,19.0753432,72.9052278,N,Ghatkopar,restaurant,restaurant,indian,False,False,False,False,Mo-Su 10:00-22:00
+way_1330621898,Street Food Stalls,19.0850341,72.9085471,N,Ghatkopar,fast_food,fast_food,unknown,False,False,False,False,
+way_1334755910,Bombay Island Coffee Company,19.0931818,72.9202351,N,Ghatkopar,cafe,cafe,coffee_shop,False,False,False,False,
+node_984287758,Balaji Rest.,19.1546492,72.8561961,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_984287770,McDonald's,19.1546087,72.856386,PN,Goregaon,fast_food,fast_food,burger,True,False,False,True,
+node_984980715,Sai Veg World,19.1648094,72.8502701,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_1168330200,Heritage,19.16602,72.8519069,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_1169481187,Ratna,19.1633476,72.8461207,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_1184178688,Domino's,19.1631866,72.8461076,PN,Goregaon,fast_food,fast_food,pizza,True,False,False,True,
+node_4323199791,Legacy of Mumbai,19.1779962,72.8463789,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_10567965615,Starbucks,19.172676,72.860395,PN,Goregaon,cafe,cafe,coffee_shop,True,False,True,True,Mo-Su 09:00-23:00
+node_10796770993,Chandak Stella,19.1715861,72.8444844,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_11915129391,Royal Challenge Restaurant,19.1742788,72.8634134,PN,Goregaon,restaurant,restaurant,unknown,False,False,False,False,
+node_12415413124,Greens Cafe,19.1640544,72.8468442,PN,Goregaon,cafe,cafe,pizza,False,False,False,False,
+node_13240926980,Rail Ahar,19.1652855,72.8495212,PN,Goregaon,fast_food,fast_food,juice,False,False,False,False,
+node_13381196901,Society Tea Terminal,19.1697535,72.8588305,PN,Goregaon,cafe,cafe,unknown,False,False,False,False,
+way_352942174,hitika's cafe,19.1618312,72.8475425,PN,Goregaon,cafe,cafe,burger,False,False,False,False,24/7
+way_352963932,timepass,19.1705002,72.8507665,PN,Goregaon,restaurant,restaurant,pizza,False,False,False,False,sunrise-sunset
+way_1459178475,Om Sai Sagar Fast Food,19.1661135,72.8648382,PN,Goregaon,fast_food,fast_food,unknown,False,False,True,False,
+node_1416522914,Domino's,19.220503,72.853142,PS,Borivali South,fast_food,fast_food,pizza,True,False,False,True,
+node_1416523402,McDonald's,19.2209927,72.8523693,PS,Borivali South,fast_food,fast_food,burger,True,False,False,True,
+node_4984096521,Simply Saraswat,19.2301647,72.84741,PS,Borivali South,restaurant,restaurant,south_indian,False,False,False,False,
+node_8422041909,dwarka,19.2240617,72.8519597,PS,Borivali South,restaurant,restaurant,regional,False,False,False,False,Mo-Su 08:00-00:00
+node_8430745746,Utsav,19.2236703,72.8457616,PS,Borivali South,fast_food,fast_food,indian,False,False,False,True,Mo-Su 10:00-22:00
+node_9454549230,Lochlainn Cafe,19.2304479,72.8559778,PS,Borivali South,restaurant,restaurant,coffee_shop,False,False,False,False,Mo-Su 09:00-21:00
+node_10170631379,Chotu's Kitchen,19.2436038,72.8516575,PS,Borivali South,restaurant,restaurant,unknown,False,False,False,False,
+node_10170645869,Hotel Ashirwad,19.2447533,72.8521214,PS,Borivali South,restaurant,restaurant,unknown,False,False,False,False,
+node_11654004610,Harbhole Kutchi Dabeli,19.2348325,72.8553465,PS,Borivali South,fast_food,fast_food,kutchi,False,False,False,False,Mo-Su 14:00-23:00
+node_13518571468,Domino's,19.2275756,72.8580295,PS,Borivali South,fast_food,fast_food,pizza,True,False,False,True,
+way_352927864,dinshas,19.2347014,72.8485954,PS,Borivali South,cafe,cafe,pizza,False,False,True,False,Mo-Sa 07:00-21:00
+way_519343780,Majestic Bar and Restaurant,19.2443624,72.8508718,PS,Borivali South,bar,bar,unknown,False,False,False,False,
+way_910328939,VEG TREAT ROYAL,19.2307387,72.8473522,PS,Borivali South,restaurant,restaurant,indian,False,False,False,False,
+way_1141885659,Dwarka Restaurant,19.2236598,72.8522879,PS,Borivali South,restaurant,restaurant,indian,False,False,False,False,Mo-Su 09:00-21:00
+node_7484275078,HOTEL KALASH,19.2546418,72.8644673,RC,Dahisar,restaurant,restaurant,indian,True,False,False,False,Mo-Su 09:00-23:00
+node_9391471943,riga chinese,19.2446402,72.8501551,RC,Dahisar,cafe,cafe,sandwich,False,False,False,False,Mo-Su 09:00-21:00
+node_9812153228,The Farm House,19.2499114,72.8479225,RC,Dahisar,restaurant,restaurant,unknown,False,False,False,False,
+node_9812162293,Cafe Meter On,19.2497886,72.8490222,RC,Dahisar,restaurant,restaurant,pizza,False,False,False,False,
+node_9812187793,Snack Shack,19.2490932,72.8482061,RC,Dahisar,restaurant,restaurant,unknown,False,False,False,False,
+node_9853230911,Coffee Craft,19.2548572,72.8488818,RC,Dahisar,cafe,cafe,unknown,False,False,False,False,
+node_10170645871,Lazeez Caterers,19.2448152,72.8518372,RC,Dahisar,restaurant,restaurant,biryani,False,False,False,False,
+node_10170645872,Grab Some Momos,19.2448196,72.851815,RC,Dahisar,restaurant,restaurant,momo,False,False,False,False,
+node_10230192535,cafe meter on,19.2498272,72.8490219,RC,Dahisar,restaurant,restaurant,pizza,False,False,False,False,
+node_10608017294,cafe meter on,19.2497659,72.8490168,RC,Dahisar,cafe,cafe,pizza,False,False,False,False,
+node_11481527990,banjara dhaba,19.2530772,72.8490148,RC,Dahisar,restaurant,restaurant,indian,False,False,False,False,
+node_12214425836,Hot Buns,19.2448666,72.851611,RC,Dahisar,fast_food,fast_food,unknown,False,False,False,False,
+node_12222193556,snack shack,19.2492029,72.8483417,RC,Dahisar,restaurant,restaurant,burger,False,False,False,False,Mo-Su 09:00-21:00
+node_13286973122,fernades & co.,19.2479337,72.8512089,RC,Dahisar,restaurant,restaurant,pizza,False,False,False,False,24/7
+node_13426728741,Hannahs cafe,19.2483938,72.8482989,RC,Dahisar,cafe,cafe,coffee_shop,False,False,False,False,Mo-Su 09:00-21:00
+node_13801401427,Therapy,19.2456043,72.8519555,RC,Dahisar,bar,bar,unknown,False,False,False,False,
+node_13801401430,Dominoes,19.2459336,72.8520208,RC,Dahisar,fast_food,fast_food,pizza,False,False,False,False,
+node_13801401431,Downtown 29,19.2460412,72.852027,RC,Dahisar,restaurant,restaurant,unknown,False,False,False,False,
+node_13801401432,Pop Tates,19.2461545,72.8519897,RC,Dahisar,restaurant,restaurant,unknown,False,False,False,False,
+way_496953444,banjara dhaba,19.2530973,72.8489884,RC,Dahisar,restaurant,restaurant,unknown,False,False,False,False,
+way_1121231490,Deepa Bar,19.2486055,72.8588843,RC,Dahisar,bar,bar,unknown,False,False,False,False,
+node_1936886202,Aura Restaurant,19.23472,72.840801,RN,Borivali North,restaurant,restaurant,unknown,False,False,False,False,
+node_9847434086,Starbucks,19.2411981,72.8445049,RN,Borivali North,cafe,cafe,coffee_shop,True,False,False,True,
+way_352937727,Cream Lounge,19.2348242,72.8410924,RN,Borivali North,restaurant,restaurant,milkshake,False,False,False,False,Mo-Su 12:00-23:30
+node_1416511446,Pizza Hut,19.2138976,72.8407797,RS,Kandivali,restaurant,restaurant,pizza,False,False,False,True,
+node_2820428444,Jai Mata Di Tea Stall,19.2018265,72.8612465,RS,Kandivali,cafe,cafe,tea,False,False,False,False,
+node_3773905704,Avenue Hotel,19.2072751,72.8660843,RS,Kandivali,restaurant,restaurant,unknown,False,False,False,False,
+node_4871110562,Starbucks,19.2131152,72.8423408,RS,Kandivali,cafe,cafe,coffee_shop,True,False,False,True,Mo-Su 08:00-00:00
+node_5126775554,Savor Family Resto Bar,19.2053215,72.8449593,RS,Kandivali,bar,bar,unknown,False,False,False,False,"Mo-Su 11:00-15:30,18:00-01-30"
+node_6138363547,Bhagwati,19.2033244,72.8430989,RS,Kandivali,restaurant,restaurant,fast_food,True,True,False,False,
+node_7379668871,Growels,19.2033245,72.8595169,RS,Kandivali,restaurant,restaurant,unknown,False,False,False,False,
+node_7944486471,cafe ameyzing,19.198779,72.856936,RS,Kandivali,cafe,cafe,unknown,False,False,False,False,
+node_7944486472,cafe ameyzing,19.1987777,72.8569466,RS,Kandivali,cafe,cafe,unknown,False,False,False,False,
+node_8230447840,jinus corner,19.2054167,72.844414,RS,Kandivali,cafe,cafe,pizza,False,False,False,False,Mo-Su 09:00-21:00
+node_8261012605,Modern sweets and farsan,19.2018813,72.8434242,RS,Kandivali,fast_food,fast_food,indian,False,False,False,True,Mo-Su 08:00-21:00
+node_8263834093,navnat,19.1982849,72.8455469,RS,Kandivali,cafe,cafe,ice_cream,False,False,True,False,Mo-Su 09:00-21:00
+node_9548786763,Cafe Mocha,19.2039366,72.8652148,RS,Kandivali,cafe,cafe,coffee_shop,False,False,True,False,Mo-Su 09:00-21:00
+node_11613055039,bay leaf veg restaurant,19.208615,72.8643764,RS,Kandivali,restaurant,restaurant,indian,False,False,False,False,Mo-Su 10:00-22:00
+node_11728344375,Achija veg restaurant Kandivali branch,19.2057243,72.8434457,RS,Kandivali,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 10:00-24:00
+node_12865038787,The Chocolate Heaven,19.2200169,72.8479993,RS,Kandivali,cafe,cafe,pizza,False,False,False,False,Mo-Su 08:00-00:00
+node_12871240129,Kaffiene,19.2176421,72.8517071,RS,Kandivali,cafe,cafe,coffee_shop,False,False,True,False,Mo-Su 11:00-23:00
+node_13304809922,Mudras,19.2056001,72.8428325,RS,Kandivali,restaurant,restaurant,regional,False,False,False,False,Mo-Su 08:00-24:00
+node_13948161549,Annalaya Udupi Cafe,19.2126442,72.8430497,RS,Kandivali,restaurant,restaurant,indian,False,True,False,False,Mo-Su 09:00-22:00
+way_358298872,Delicasy,19.198443,72.8485203,RS,Kandivali,restaurant,restaurant,pizza,True,False,False,False,
+way_1015920191,school cafeteria,19.2099013,72.8652611,RS,Kandivali,cafe,cafe,unknown,False,False,False,False,
+way_1144645144,makabo resturant,19.2065163,72.8440079,RS,Kandivali,restaurant,restaurant,unknown,False,False,False,False,
+node_347036704,Cafe Andora,19.0573435,72.8276847,S,Bandra,cafe,cafe,sandwich,False,False,False,False,Mo-Su 09:00-21:00
+node_347114424,TIBBS Frankies,19.0550612,72.8307379,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_347124929,Naturals,19.0550593,72.8266631,S,Bandra,ice_cream,dessert,ice_cream,False,False,False,True,
+node_347145411,Good Luck Restaurant,19.0517569,72.8240813,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 07:00-00:00
+node_347145587,A1 Bakery,19.0546237,72.8264717,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_347168988,Wonton House,19.0548375,72.8258975,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_745463693,Olive Restaurant,19.0717586,72.8253808,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_1639045726,Ray's Cafe & Pizzeria,19.0550265,72.8283822,S,Bandra,restaurant,restaurant,pizza,False,False,False,False,
+node_1641863964,Baskin Robins,19.0713325,72.824086,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_1641869868,Mezbaan,19.0707547,72.8224918,S,Bandra,restaurant,restaurant,lebanese,False,False,False,False,
+node_2171341171,Suzette,19.0616511,72.829063,S,Bandra,restaurant,restaurant,international,False,False,False,False,
+node_2171343532,Papa Pancho Da Dhaba,19.0616567,72.8291663,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_2171398723,Pali Bhavan,19.0620905,72.8294205,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_2171447221,Punjab Sweet House,19.0625744,72.8293785,S,Bandra,fast_food,fast_food,indian,False,False,False,False,
+node_2173092241,Snack Shack,19.0625682,72.8296368,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_2173095188,Poco Loco,19.062482,72.8297133,S,Bandra,restaurant,restaurant,spanish,False,False,False,False,
+node_2180954109,Out of the Blue,19.0718264,72.825446,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_2440075893,Dakshin,19.0657214,72.8308414,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_2440075895,Mini Punjab,19.0653282,72.8312029,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_2610565997,I Think Fitness Cafe,19.0592055,72.8294744,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_2610566163,House of Mandarin,19.0549394,72.8266649,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_2610566198,Yacht,19.0548533,72.8255119,S,Bandra,bar,bar,unknown,False,False,False,False,Mo-Su 09:00-21:00
+node_2680338196,Guilt Trip,19.0713519,72.8241542,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_2970392691,Metro Pizza,19.0681022,72.8264504,S,Bandra,restaurant,restaurant,pizza,False,False,False,False,
+node_3207595959,Manohar Sweets,19.0606378,72.8400716,S,Bandra,fast_food,fast_food,indian,False,False,False,False,
+node_3207619844,Raja ( Southindian FAST FOOD ),19.0608689,72.8433434,S,Bandra,fast_food,fast_food,indian,False,False,False,False,"Mo-Su,PH 07:00-11:00,05:00-19:30"
+node_3257870640,Vrindavan,19.0691603,72.8394827,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_3417207117,the yoga house,19.0657265,72.8247137,S,Bandra,cafe,cafe,regional organic,False,False,False,False,
+node_3645808418,Starbucks,19.0505393,72.8272596,S,Bandra,cafe,cafe,coffee_shop,True,False,False,True,Mo-Su 07:00-01:00
+node_3838398804,The Bagel Shop,19.0631425,72.8248491,S,Bandra,cafe,cafe,unknown,False,False,False,False,Mo-Su 09:00-22:30
+node_4198985391,Smokehouse Deli,19.0653991,72.8298816,S,Bandra,restaurant,restaurant,burger,False,False,False,False,Mo-Su 09:00-00:30
+node_4286109595,Bonobo,19.0654946,72.8336758,S,Bandra,bar,bar,unknown,False,False,False,False,
+node_4303058599,Tavaa Restaurant,19.0596353,72.8324442,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_4310383168,McDonald's,19.065807,72.8344297,S,Bandra,fast_food,fast_food,burger,True,False,False,True,
+node_4310478240,McDonald's,19.0546942,72.8282883,S,Bandra,fast_food,fast_food,burger,True,False,False,True,
+node_4312900099,Balaji Restaurant,19.0551517,72.8307261,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_4340814165,Sigdi,19.0615863,72.8333786,S,Bandra,restaurant,restaurant,indian,False,True,False,False,11:00-01:00
+node_4345456815,Deepa Bar and Restaurant,19.0553221,72.8364634,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_4345483721,Canara Bar and Restaurant,19.0571775,72.8356394,S,Bandra,bar,bar,unknown,False,False,False,False,
+node_4345562396,Goodluck Wines,19.0551796,72.8359562,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_4590509699,Stomach,19.0597451,72.8340932,S,Bandra,restaurant,restaurant,chinese,True,True,False,False,
+node_4592165895,Bombay Salad Co.,19.0648165,72.8308323,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_4713460904,Burger King,19.0635353,72.8350079,S,Bandra,fast_food,fast_food,burger,True,False,False,True,Mo-Su 07:00-04:00
+node_4736442881,Morii Cafe,19.0486305,72.825887,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_4736444239,Taj Mahal Tea House,19.0485691,72.8258748,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_5221726505,Elco Restaurant,19.0558511,72.8331336,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_5221726506,Jai Jawan,19.0642496,72.8346675,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_5235470994,Ice and Spice,19.0527402,72.8312867,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_5238414919,Basque by Breve,19.0504596,72.82669,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_5238415240,Snowbite,19.0521623,72.8238975,S,Bandra,ice_cream,dessert,unknown,True,False,False,False,Mo-Su 11:00-00:00
+node_5246971908,Candies,19.0495544,72.8298692,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_5246971911,Ferry Wharf,19.049285,72.8293764,S,Bandra,restaurant,restaurant,seafood,False,False,False,False,"Mo-Su 11:00-15:30, 19:00-00:30"
+node_5246971916,Door No. 1,19.0488947,72.828595,S,Bandra,bar,bar,unknown,False,False,False,False,Mo-Su 11:00-01:30
+node_5256641022,Domino's,19.0482458,72.8258712,S,Bandra,fast_food,fast_food,pizza,True,False,False,True,
+node_5258342076,Ayaz's The Kebab Palace,19.0545043,72.824945,S,Bandra,fast_food,fast_food,kebab,False,False,False,False,
+node_5258342084,Kobe Sizzlers,19.0546252,72.8259384,S,Bandra,restaurant,restaurant,sizzler,False,False,False,False,
+node_5270763675,Jimme's Kitchen,19.0540379,72.8306343,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_5273194232,Sahibaan,19.0592576,72.8294753,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_5277163839,New Sunrise Restaurant,19.063215,72.824601,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 07:00-23:30
+node_5277423229,Yugo Sushi,19.0630814,72.8247526,S,Bandra,restaurant,restaurant,japanese,False,False,False,False,Tu-Su 12:00-23:00
+node_5277435362,Seeds of Life,19.0631056,72.8249753,S,Bandra,cafe,cafe,unknown,False,False,False,False,Mo-Su 11:00-23:00
+node_5281312529,Blue Tokai Coffee Roasters,19.0604691,72.8243537,S,Bandra,cafe,cafe,coffee_shop,True,True,False,True,Mo-Su 09:00-22:00
+node_5293432922,Lashkara,19.0623148,72.8296604,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_5778981253,Madras Diaries,19.0598965,72.8339617,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_5780857254,The Village Shop,19.0552504,72.824863,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_6003278828,Imbiss Meating Joint,19.0538594,72.8297981,S,Bandra,restaurant,restaurant,sausage,False,False,False,False,"Tu-Su 11:30-15:00,18:00-23:00"
+node_6960777256,Candies,19.0609825,72.8268992,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_7320270187,Starbucks,19.0598107,72.8323078,S,Bandra,cafe,cafe,coffee_shop,True,False,False,True,
+node_7320270199,Starbucks,19.0655751,72.8332064,S,Bandra,cafe,cafe,coffee_shop,True,False,False,True,
+node_8329715112,Gurukripa Pani Puri,19.0656056,72.830835,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_8451839399,Chaayos,19.0593648,72.8294628,S,Bandra,cafe,cafe,tea,True,False,True,True,07:00-23:00
+node_9405136896,Old Street Cafe & Bar,19.0546125,72.8258171,S,Bandra,bar,bar,unknown,True,False,False,False,
+node_9935357958,Greenbox Caffe,19.0685728,72.8353475,S,Bandra,cafe,cafe,indian,False,False,False,False,
+node_10242721196,Shawarma House,19.0531306,72.8292027,S,Bandra,fast_food,fast_food,kebab,False,False,False,False,
+node_10242737041,Marrakesh,19.0511682,72.8276033,S,Bandra,restaurant,restaurant,lebanese,False,False,False,False,
+node_10259441805,vidhi',19.0609693,72.8266539,S,Bandra,cafe,cafe,italian,True,True,True,False,Mo-Su 11:00-23:00
+node_10608756006,Eat Around the Corner,19.0623733,72.8327725,S,Bandra,fast_food,fast_food,burger,False,False,False,False,Mo-Su 07:00-01:00
+node_10678500279,Yoko Sizzlers,19.0562679,72.83473,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_10694358136,Greenr Cafe,19.0636814,72.8293629,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_10781543267,Lucky,19.0538947,72.8377074,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11276749958,Subko Speciality Coffee Roasters and Bakehouse,19.0531651,72.8300804,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11296361368,Woodside Inn,19.062542,72.8293871,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11296371080,Tibb's Frankie,19.0606752,72.8295296,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_11296371081,Bombay Taco Company,19.0603008,72.8311614,S,Bandra,restaurant,restaurant,tex-mex,False,False,False,False,
+node_11296371107,The Coconut Boy,19.0615782,72.830578,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11296371108,Joseph's Tandoori Chicken,19.0616818,72.8302955,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_11296371111,Good Flippin' Burgers,19.0618926,72.8294347,S,Bandra,fast_food,fast_food,burger,False,False,True,False,
+node_11296371112,Kitchen Garden by Suzette,19.0616694,72.8293209,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11296371115,Javaphile,19.0616434,72.8288715,S,Bandra,cafe,cafe,coffee_shop,False,False,False,False,
+node_11296371116,Project Hum,19.061648,72.8289363,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11296371126,Hakkasan,19.0606199,72.8345481,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_11296371127,Arbab,19.0598873,72.834083,S,Bandra,restaurant,restaurant,lebanese,False,False,True,False,
+node_11296371135,Miya Kebabs,19.0624232,72.8308606,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11296371136,Cafe Bandra,19.0624117,72.831025,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11298556869,Boojee Café,19.0605663,72.824459,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11298556969,Boojee Café,19.0606201,72.8244865,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11298617848,Janata Bar and Restaurant,19.0631037,72.8294198,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11298617853,Jhelum,19.0629997,72.8294247,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11298617868,Ritual Daily Coffee,19.0650907,72.8296379,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11298645299,Sequel,19.0654365,72.8305902,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11298645303,Haji Ali Juice Centre,19.0656484,72.8310595,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_11298645321,Pizza Hut,19.0655856,72.8327487,S,Bandra,restaurant,restaurant,pizza,False,False,False,True,
+node_11298645329,Tim Hortons,19.0653558,72.832398,S,Bandra,cafe,cafe,coffee_shop,True,False,False,True,
+node_11298645389,Domino's,19.0678533,72.8326181,S,Bandra,fast_food,fast_food,pizza,True,False,False,True,
+node_11298645405,Los Cavos,19.0664847,72.8333221,S,Bandra,restaurant,restaurant,tex-mex,False,False,False,False,
+node_11301585072,Veronica‘s,19.0540462,72.8268024,S,Bandra,cafe,cafe,unknown,False,False,False,False,Mo-Su 08:00-23:00
+node_11339568160,Dimsum Wu,19.0514716,72.8283149,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_11364271006,Sai Sagar,19.054425,72.8375299,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11364283705,Meraki,19.0540834,72.8306392,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_11364283716,Bombay Coffee House,19.063364,72.8346934,S,Bandra,cafe,cafe,coffee_shop,False,False,False,False,
+node_11364283728,KFC,19.0655212,72.8341507,S,Bandra,fast_food,fast_food,chicken,True,False,False,True,
+node_11364283731,Sheetal Bukhara,19.0679012,72.8340037,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,Mo-Su 11:30-01:30
+node_11365091490,Chaayos,19.0508548,72.8272673,S,Bandra,cafe,cafe,tea,True,False,False,True,
+node_11365091492,Wow! Momo,19.0505687,72.8268531,S,Bandra,fast_food,fast_food,momo,True,False,False,True,
+node_11365091494,Method Contemporary Art & Treats,19.050519,72.8267783,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11384605318,DP's Spice,19.0601618,72.8437179,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_11385106146,Jaihind Lunch Home,19.0629944,72.8292602,S,Bandra,restaurant,restaurant,seafood,False,False,False,False,"Mo 11:30-16:00,19:30-00:00; We-Su 11:30-16:00,19:30-00:00"
+node_11482202270,Coffee by Di Bella,19.0705444,72.8226323,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11482202271,Carter Road Social,19.0705997,72.822656,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11482202272,Häagen-Dazs,19.0706168,72.8226211,S,Bandra,ice_cream,dessert,unknown,False,False,False,True,
+node_11482202274,Tibb's Frankie,19.0706407,72.8226815,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_11482202275,70's Frogurt Hood,19.0706687,72.8227562,S,Bandra,ice_cream,dessert,frozen_yogurt,False,False,False,False,
+node_11482202276,Mongoose The Bubble Bar,19.070678,72.8227903,S,Bandra,cafe,cafe,bubble_tea,False,False,False,False,
+node_11482202277,The House Of Massimo,19.0707048,72.8228962,S,Bandra,restaurant,restaurant,pizza,False,False,False,False,
+node_11482202278,Carter's Blue,19.0707235,72.8229574,S,Bandra,fast_food,fast_food,kebab,False,False,False,False,
+node_11483543858,Border Bean Barbecue,19.0489652,72.8287928,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11483543859,QJ (Quarter Junction) Bar and Restaurant,19.0489366,72.8287341,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_11483543860,Breve Cycling Cafe,19.0505565,72.8265298,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_11483837670,Burger King,19.0543837,72.8392766,S,Bandra,fast_food,fast_food,burger,True,False,False,True,
+node_11483837672,Mad Over Donuts,19.0634552,72.834688,S,Bandra,fast_food,fast_food,donut,False,False,False,False,
+node_11483837676,Shahi Durbar Kulfi,19.070822,72.8233472,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_11483837677,Ice Cream Factory,19.0708431,72.8233864,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_11671956965,The Library Cafe,19.0707397,72.8224281,S,Bandra,cafe,cafe,unknown,False,False,True,False,
+node_11846246267,DORANGOS (Instagram:-dorangos_comedy_events) Best Entertainment Mumbai,19.0611919,72.826748,S,Bandra,cafe,cafe,unknown,False,False,True,False,Mo-Su 09:00-21:00
+node_11895503568,Subway,19.0493254,72.8294729,S,Bandra,fast_food,fast_food,sandwich,True,False,False,True,
+node_12028951855,Zima,19.0637688,72.8365002,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,Mo-Su 07:00-24:00
+node_12107741701,Sanjay Vada Pav,19.0608349,72.8432924,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,"Mo-Su,PH 08:00-22:30"
+node_12126380637,Maaji's Foods,19.0531004,72.8319027,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_12126380642,Dostana Fast Food,19.0526153,72.8326056,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_12192784768,Tiger Yaki,19.061944,72.8244934,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_12192784798,Abokado,19.0629065,72.8246987,S,Bandra,cafe,cafe,japanese,False,False,False,False,
+node_12192784840,Benne Heritage Bangalore Dosa,19.0625821,72.8308772,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_12192784843,Shree Sagar Veg Restaurant,19.0624039,72.8305854,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_12192784844,Cafe Frozen Fun,19.0624331,72.8306546,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_12307927827,Retroz The Cafe,19.0515022,72.8283281,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_12307927828,The South Spice,19.052066,72.8284465,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_12307927829,Mokai,19.052411,72.8284969,S,Bandra,cafe,cafe,japanese,False,False,True,False,Mo-Su 09:00-21:00
+node_12307927830,The Nutcracker,19.05012,72.8264557,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_12307927831,Jumbo King,19.0558568,72.8330828,S,Bandra,fast_food,fast_food,burger,True,False,False,True,
+node_12334053399,Subway,19.0612359,72.8345428,S,Bandra,fast_food,fast_food,sandwich,True,False,False,True,
+node_12334116804,Izumi,19.0643147,72.8329755,S,Bandra,restaurant,restaurant,japanese,False,False,False,False,
+node_12334116824,5 Spice,19.0680108,72.8323909,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_12334116825,Jai Jawan,19.0680214,72.8323561,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_12337394175,Poetry by Love and Cheesecake,19.0627784,72.8328315,S,Bandra,cafe,cafe,unknown,False,False,True,False,
+node_12346531476,Easy Boba,19.056272,72.8342539,S,Bandra,cafe,cafe,bubble_tea,False,False,False,False,
+node_12353989426,Earth Cafe,19.0590914,72.8339725,S,Bandra,cafe,cafe,unknown,False,False,False,False,Mo-Su 08:00-23:00
+node_12668986254,MyFroyoLand,19.0550608,72.8292952,S,Bandra,ice_cream,dessert,frozen_yogurt,False,False,False,False,
+node_12706731748,Royal China,19.0534591,72.8241094,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_12706731749,70's Frogurt Hood,19.055808,72.8249532,S,Bandra,ice_cream,dessert,frozen_yogurt,False,False,False,False,
+node_12715439174,Kha,19.0573696,72.8288114,S,Bandra,fast_food,fast_food,burger,False,False,False,False,
+node_12731973446,The C Spot Cafe,19.049462,72.8296425,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_12786049459,GOH JIA TING,19.0620609,72.8342751,S,Bandra,restaurant,restaurant,seafood,False,False,False,False,
+node_12786049460,China Gate,19.0620379,72.8343382,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,
+node_12806107189,Uncommon,19.0613092,72.8307578,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_12853058852,Persian Darbar,19.0601764,72.8367356,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_12892604956,Farmers Cafe,19.0669962,72.8328138,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_12923020640,Pomodoro,19.0644091,72.8310334,S,Bandra,restaurant,restaurant,italian,False,False,False,False,
+node_12923020641,Tamari,19.0644625,72.8310387,S,Bandra,restaurant,restaurant,asian,False,False,False,False,
+node_12923020642,Bombay Brioche,19.0650522,72.831054,S,Bandra,cafe,cafe,unknown,False,False,True,False,
+node_12923020645,Khane Khas,19.0656286,72.8303176,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_12923020646,Bobakat,19.0656303,72.8302815,S,Bandra,cafe,cafe,bubble_tea,False,False,False,False,
+node_12923020648,Salim's Shahi Sigdi,19.0656395,72.8301939,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+node_12923020650,The Fresh Press,19.0607185,72.8295261,S,Bandra,fast_food,fast_food,juice,False,False,False,False,
+node_12923020653,Sandwizzaa,19.060772,72.829496,S,Bandra,fast_food,fast_food,sandwich,False,False,False,False,
+node_12926034660,1441 Restaurant,19.0620964,72.8347235,S,Bandra,restaurant,restaurant,pizza,False,False,False,False,
+node_12926036241,Copper Chimney,19.0609221,72.8364284,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_12926036242,Guru Kripa Pani Puri,19.0608444,72.8364258,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_12926036243,Dessertaria,19.0600313,72.8367747,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_12926508555,The Shawarma and Momo Factory,19.0473801,72.8250462,S,Bandra,fast_food,fast_food,kebab,False,False,False,False,
+node_12926508556,Mountain Goat,19.047414,72.8250525,S,Bandra,restaurant,restaurant,nepalese,False,False,False,False,Mo-Su 13:00-01:00
+node_12927277234,The Black Shepherd,19.0477206,72.8251225,S,Bandra,restaurant,restaurant,british,False,False,False,False,"Mo 11:30-15:30,19:30-23:30; We-Su 11:30-15:30,19:30-23:30"
+node_12996344277,Tokyo Matcha Bar,19.0527561,72.8287399,S,Bandra,cafe,cafe,bubble_tea,False,False,False,False,
+node_13011946600,Camp Juice Centre,19.0495613,72.8211203,S,Bandra,fast_food,fast_food,juice,False,False,False,False,
+node_13058306152,Bru Baabaa,19.0615878,72.8335006,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_13058306197,Gokul Refreshments,19.0562652,72.8350841,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_13063238727,Joshh - Indian Street Eats,19.0593313,72.8375935,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_13064131452,Frys With Fries,19.0548412,72.825837,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_13064131464,Cafe Delight Restaurant,19.0546772,72.8262181,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_13064902217,Seefah,19.0546688,72.8282658,S,Bandra,restaurant,restaurant,asian,False,False,False,False,
+node_13067310083,70's Frogurt Hood,19.0539355,72.8283667,S,Bandra,ice_cream,dessert,frozen_yogurt,False,False,False,False,
+node_13067310084,Uba Tuba,19.0539781,72.8283721,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_13067345239,Four Chopsticks,19.0530486,72.8291774,S,Bandra,restaurant,restaurant,chinese,False,False,False,False,"Mo-Su 12:00-15:30,19:00-23:30"
+node_13067345319,Perfect Juice Centre & Snacks,19.0537739,72.8305165,S,Bandra,fast_food,fast_food,juice,False,False,False,False,
+node_13069759999,Bandra Eats,19.0538175,72.8308279,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_13069760000,Tandy's Creamery,19.0538233,72.8308466,S,Bandra,ice_cream,dessert,unknown,False,False,False,False,
+node_13081505592,Nagori A-1 Tea & Kitchen,19.0477731,72.8273774,S,Bandra,fast_food,fast_food,unknown,False,False,False,False,
+node_13082053987,New Riyaz Restaurant,19.0543377,72.8388343,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_13086964873,Chicken Affair,19.0634612,72.8245334,S,Bandra,fast_food,fast_food,chicken,False,False,False,False,
+node_13086966002,Pause,19.0631232,72.8249195,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_13089306642,Scarlett House,19.0628688,72.829862,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_13089306672,The Family Table By Joseph's,19.0615832,72.8305042,S,Bandra,fast_food,fast_food,sandwich,False,False,False,False,
+node_13097872577,Shiv Sagar,19.0679036,72.8377151,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+node_13205068199,Vietnom Mumbai,19.0658523,72.8332728,S,Bandra,restaurant,restaurant,vietnamese,False,False,False,False,Mo-Su 12:00-24:00
+node_13266741751,Mr MISU,19.0539473,72.8288822,S,Bandra,cafe,cafe,unknown,False,False,False,False,
+node_13335658514,Sixteen 33,19.0652872,72.8308924,S,Bandra,bar,bar,unknown,False,False,False,False,
+node_13335658515,Bokka Coffee,19.0656452,72.8308365,S,Bandra,cafe,cafe,coffee_shop,False,False,False,False,
+node_13335658516,Eddie's Cafe and Bar,19.0656428,72.8307398,S,Bandra,bar,bar,unknown,False,False,False,False,
+node_13430752769,MIRARI,19.0574044,72.829041,S,Bandra,restaurant,restaurant,pizza,False,False,False,False,Mo-Sa 09:00-18:00
+node_13569989701,Ettarra,19.0530559,72.8289745,S,Bandra,cafe,cafe,unknown,False,False,False,False,Mo-Su 07:00-02:00
+node_13910182359,Donna Deli,19.0621624,72.8374797,S,Bandra,restaurant,restaurant,asian,False,False,False,False,
+node_13914655856,"शेल्टर कैफे एक्स कॉफी बाय जवाफिले, बांद्रा",19.0671198,72.8241177,S,Bandra,cafe,cafe,unknown,False,False,False,False,Mo-Su 08:00-23:00
+node_13947451878,PJ's,19.0653423,72.8301671,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+way_357472079,Hotel Sahil,19.0669304,72.8375169,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+way_543778459,Bandra Born,19.0505145,72.8270094,S,Bandra,restaurant,restaurant,unknown,False,False,False,False,
+way_1123870256,foodstuffs,19.0673841,72.8240436,S,Bandra,cafe,cafe,asain,True,False,True,True,Mo-Su 10:00-21:00
+way_1424948150,Rajasthan Restaurant,19.0674246,72.8375169,S,Bandra,restaurant,restaurant,indian,False,False,False,False,
+way_1428230097,Mysore Thatte Tales,19.0507554,72.8298997,S,Bandra,restaurant,restaurant,indian,False,False,False,False,Mo-Su 07:00-21:00
+node_3213766641,ccd,19.1688674,72.9600621,T,Mulund,cafe,cafe,regional,False,False,False,False,5 mintues from mulund east
+node_3224720360,Vishva Bharti Pure Veg Restaurant,19.1723812,72.9560294,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_3226297459,Campus Hotel,19.1681057,72.96102,T,Mulund,restaurant,restaurant,regional,False,False,False,False,
+node_3226348962,Prashant Hotel,19.1714989,72.9580365,T,Mulund,restaurant,restaurant,regional,False,False,False,False,
+node_3226352289,TIP TOP Plaza,19.1856851,72.9576171,T,Mulund,restaurant,restaurant,regional,False,False,False,False,
+node_3229585387,Ruchi Hotel,19.1706547,72.9590081,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_3231190599,Cafe Coffee Day,19.1679943,72.9609744,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_3256378819,Shubham,19.1748961,72.9580248,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_4102346690,The Laughter Chapter,19.174728,72.957861,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_4189374777,Bansuri,19.1720378,72.95884,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_4505461589,Fuel Fast Food,19.1836087,72.9648833,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_4585356290,FARSANI DUNIYA,19.1751585,72.9566451,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_4585386593,Achija,19.1715424,72.9501855,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_4658634193,Shubhangi,19.1694974,72.9606519,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_4730516853,Jai Ambe Fast food,19.170349,72.9514772,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_4791178922,Domino's Piza,19.1695082,72.9589345,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_5641941523,China Town,19.1733575,72.9617602,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_5641953221,China Garden,19.1730372,72.9618248,T,Mulund,restaurant,restaurant,chinese,False,False,False,False,
+node_5643801722,Shree Tara Pure Veg,19.1717347,72.9538932,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_5643801723,Golden Vadapav,19.1718203,72.9555323,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5643808521,Jumbo Vadapav,19.1722927,72.9559453,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5643808722,Samarth Snacks,19.1718192,72.9606786,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5646129625,Annapurna,19.1720297,72.9571697,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5646129629,Zunka Bhakar (Muktai annadata aahar kendra),19.1720371,72.9592326,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5646129630,Burger point,19.1742223,72.9583,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5646143123,Hotel Kapil,19.1718116,72.9554083,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_5694316923,Mandap,19.1716402,72.9569262,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5707923422,Surya snacks pure veg,19.1708119,72.956632,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5746301632,Mamledar missal,19.172979,72.9567413,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5746558921,Anisha fast food,19.1729454,72.9568188,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_5760336023,Ram Punjab,19.1784206,72.9492695,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_5761649133,Ashapura,19.178773,72.9503692,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_6008051485,Kelkar college canteen,19.1625917,72.9570939,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_6312852485,Prabhu ice cream,19.1628388,72.9566146,T,Mulund,ice_cream,dessert,unknown,False,False,False,False,
+node_6358404985,Amul ice cream,19.1736091,72.9617928,T,Mulund,ice_cream,dessert,unknown,False,False,False,False,
+node_6417883915,Vaibhav Village,19.1758921,72.9690455,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_6418034680,Shivraj Fine and Dine,19.1759742,72.9687629,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_6442295188,Kathi Rolls,19.172086,72.9587608,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_6726371986,Pokket Cafe,19.1720497,72.9583156,T,Mulund,cafe,cafe,italian_pizza,False,False,False,False,
+node_8733172336,Cafe Bambai,19.1651984,72.9485214,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_9047312125,Akshay Food Plaza,19.1729951,72.9495824,T,Mulund,restaurant,restaurant,chinese,False,False,False,False,Mo-Su 10:00-22:00
+node_9308325853,Cafe Coffee Day,19.1727452,72.9508769,T,Mulund,cafe,cafe,coffee_shop,True,False,True,True,Mo-Su 09:00-21:00
+node_9738825918,Bhau vadapav,19.1736063,72.9561024,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_9738826133,Subham,19.1747941,72.9578827,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_9738827579,Atithi,19.1738602,72.9578139,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_9738837636,Sitara,19.1746779,72.9577937,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_9738865577,Sandeep,19.1757126,72.9522587,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_9738877812,Kirti Mahal,19.175382,72.9529536,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_9738892382,Rasoi Thali,19.1727865,72.9563615,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_9887664317,McDonald's,19.1732679,72.9570443,T,Mulund,fast_food,fast_food,burger,True,False,False,True,
+node_9887677853,EFC shawarma,19.1707394,72.9617004,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_9887687542,Campus,19.1679934,72.9610648,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_9887696719,Tea & Conversation,19.1673553,72.9607465,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_10230504592,Sri Jalaram Ice Bhel,19.174191,72.9540803,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_10245266133,Tunak Tunak Tunn,19.1716956,72.9430389,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_10245266134,Achija,19.1712243,72.9433098,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,"Mo-Su,PH 09:00-01:30"
+node_10301077062,Testbuds,19.1769068,72.952778,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_10841886498,Vithal Dabeli,19.1737344,72.9548381,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_10872765180,Jai Jalram Farsan Mart,19.1745159,72.953972,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_11268507185,St. Gregorios School Canteen,19.1806576,72.9585845,T,Mulund,fast_food,fast_food,indian,False,False,False,True,Mo-Fr 08:00-17:00
+node_12185885162,Bake N Bite,19.1780463,72.9642222,T,Mulund,restaurant,restaurant,cake,False,False,False,False,Mo-Su 09:00-21:00
+node_12209975598,Naturals,19.1697667,72.9598777,T,Mulund,ice_cream,dessert,ice_cream,False,False,False,True,
+node_12630665801,Mani's Cafe,19.1715709,72.9530841,T,Mulund,cafe,cafe,coffee_shop,False,False,False,False,
+node_12875129610,Hari Om Snacks,19.1743893,72.9619467,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_12878801773,Muktai Annadata Kendra,19.1724523,72.9593352,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_12878867196,Om Guru Bhelpuri Center,19.1721314,72.9572402,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_12880697697,MG,19.172928,72.95651,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_12880804522,Deepak Bar And Restaurant,19.1722081,72.9558631,T,Mulund,bar,bar,unknown,False,False,False,False,
+node_13504116732,Domino's,19.181499,72.9469375,T,Mulund,fast_food,fast_food,pizza,True,False,False,True,
+node_13506458565,Bhel Puri Stall,19.1817832,72.9466018,T,Mulund,fast_food,fast_food,unknown,False,False,False,False,
+node_13760624710,Banana Leaf,19.1750853,72.9431958,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_13760639749,Cafe ETC(Eat Talk Cherish),19.1755249,72.9436388,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_13760642220,Banana Leaf,19.1750671,72.9433358,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+node_13760652918,Tea and Conversations,19.1755295,72.9437043,T,Mulund,cafe,cafe,unknown,False,False,False,False,
+node_13760655344,Preeti Sandwich(Sandwich and Juice Point),19.1755199,72.9435715,T,Mulund,fast_food,fast_food,sandwich,False,False,False,False,
+node_13760667615,Woodland Retreat(Exclusively Vegitarian),19.1755177,72.9437439,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+way_352983788,SITARA,19.1746554,72.9578477,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+way_353424945,Sandeep Restaurant and Bar,19.1717557,72.9578724,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+way_353761225,Woodland Restaurant,19.1856707,72.9591336,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+way_353761232,Tip Top Plaza,19.1857795,72.9596047,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+way_479859416,Apoorva Bar & Restaurant,19.1720055,72.9572466,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,
+way_682460798,Shivraj Fine and Dine,19.1759648,72.9687587,T,Mulund,restaurant,restaurant,unknown,False,False,False,False,

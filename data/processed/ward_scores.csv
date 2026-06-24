@@ -1,0 +1,25 @@
+ward_name,ward_id,total_venues,restaurant_count,fast_food_count,cafe_count,chain_count,independent_count,delivery_ratio,unique_cuisines,dominant_category,opportunity_score,opportunity_tier
+Malabar Hill,D,4,3,0,0,0,4,0.0,2,restaurant,100.0,High
+Borivali North,RN,3,2,0,1,1,2,0.0,3,restaurant,86.1,High
+Dharavi,GN,12,2,6,1,0,12,0.0,5,fast_food,81.4,High
+Byculla,E,7,3,3,1,1,6,0.0,5,fast_food,80.2,High
+Chembur,MW,8,3,2,2,1,7,0.0,4,restaurant,73.5,High
+Goregaon,PN,16,8,4,4,3,13,0.0,5,restaurant,57.0,Medium
+Borivali South,PS,14,7,5,1,4,10,0.0,8,restaurant,53.4,Medium
+Mulund,T,82,38,29,11,5,77,0.0,11,restaurant,50.1,Medium
+Dahisar,RC,21,13,2,4,0,21,0.0,8,restaurant,48.6,Medium
+Santacruz East,HE,18,2,7,8,5,13,0.056,7,cafe,44.9,Medium
+Sion,FN,27,15,2,5,5,22,0.0,5,restaurant,43.5,Medium
+Dadar,GS,65,27,24,8,11,54,0.0,18,restaurant,43.2,Medium
+Govandi,ME,24,13,1,5,3,21,0.0,6,restaurant,42.7,Medium
+Kurla,KE,21,17,2,2,2,19,0.048,6,restaurant,39.9,Medium
+Mandvi,B,61,38,13,10,4,57,0.016,14,restaurant,38.5,Medium
+Ghatkopar,N,36,17,6,11,3,33,0.028,11,restaurant,37.2,Medium
+Kurla East,L,32,14,11,6,7,25,0.062,12,restaurant,34.8,Medium
+Santacruz West,HW,22,11,3,6,4,18,0.045,8,restaurant,34.7,Medium
+Mahim,FS,34,19,4,9,7,27,0.029,9,restaurant,31.1,Low
+Bandra,S,217,98,41,57,22,195,0.018,31,restaurant,29.1,Low
+Andheri West,KW,144,56,44,34,29,115,0.056,26,restaurant,25.7,Low
+Kandivali,RS,22,10,1,10,3,19,0.091,8,cafe,24.3,Low
+Girgaon,C,76,53,10,9,6,70,0.066,17,restaurant,23.3,Low
+Colaba,A,8,5,0,1,3,5,0.25,7,restaurant,0.0,Low
