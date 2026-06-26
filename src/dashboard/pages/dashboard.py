@@ -1,10 +1,11 @@
 import json
 import pandas as pd
 import plotly.express as px
-from dash import html, dcc, dash_table
+from dash import html, dcc, dash_table, Input, Output, callback
 import dash_bootstrap_components as dbc
 from pathlib import Path
 from functools import lru_cache
+dcc.Download 
 
 PROCESSED_DIR = Path(__file__).resolve().parents[3] / "data" / "processed"
 GEOJSON_PATH  = Path(__file__).resolve().parents[3] / "data" / "geojson" / "mumbai_wards.geojson"
@@ -179,6 +180,54 @@ def layout():
                 ], width=5),
             ], className="mb-4"),
 
+            html.Div([
+                html.Div([
+                    html.H3("Ward Data", style={
+                        "fontWeight": "700", "color": "#1a1a2e",
+                        "marginBottom": "0", "fontSize": "1.1rem",
+                    }),
+                    html.Div([
+                        html.Button(
+                            "⬇ Download CSV",
+                            id="download-btn",
+                            n_clicks=0,
+                            style={
+                                "backgroundColor": "#0f3460",
+                                "color": "white",
+                                "border": "none",
+                                "borderRadius": "6px",
+                                "padding": "8px 16px",
+                                "fontSize": "0.85rem",
+                                "fontWeight": "600",
+                                "cursor": "pointer",
+                                "fontFamily": "Inter, sans-serif",
+                            }
+                        ),
+                        html.Button(
+                            "⬇ Download Power BI Ready",
+                            id="download-bi-btn",
+                            n_clicks=0,
+                            style={
+                                "backgroundColor": "white",
+                                "color": "#0f3460",
+                                "border": "2px solid #0f3460",
+                                "borderRadius": "6px",
+                                "padding": "8px 16px",
+                                "fontSize": "0.85rem",
+                                "fontWeight": "600",
+                                "cursor": "pointer",
+                                "fontFamily": "Inter, sans-serif",
+                                "marginLeft": "8px",
+                            }
+                        ),
+                        dcc.Download(id="download-csv"),
+                        dcc.Download(id="download-bi-csv"),
+                    ]),
+                ], style={
+                    "display": "flex", "justifyContent": "space-between",
+                    "alignItems": "center", "marginBottom": "16px",
+                }),
+            ]),
             dbc.Card([
                 dbc.CardHeader("Ward Detail Table", style={
                     "fontWeight": "600", "backgroundColor": "white",

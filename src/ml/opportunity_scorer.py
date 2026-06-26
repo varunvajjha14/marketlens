@@ -93,14 +93,25 @@ def compute_opportunity_score(df: pd.DataFrame) -> pd.DataFrame:
     features["opportunity_tier"] = features["tier_raw"].map(tier_map)
 
     # --- Final output columns ---
+    # --- Data confidence score ---
+    # Based on how many venues we have vs expected for a Mumbai ward
+    # Wards with <10 venues are likely under-mapped on OSM
+    features["data_confidence"] = features["total_venues"].apply(
+        lambda x: "High" if x >= 30 else "Medium" if x >= 10 else "Low"
+    )
+    features["confidence_pct"] = features["total_venues"].apply(
+        lambda x: min(round((x / 50) * 100, 0), 100)
+    )
+
     result = features[[
         "ward_name", "ward_id",
         "total_venues", "restaurant_count", "fast_food_count",
         "cafe_count", "chain_count", "independent_count",
         "delivery_ratio", "unique_cuisines", "dominant_category",
         "opportunity_score", "opportunity_tier",
+        "data_confidence", "confidence_pct",
     ]].sort_values("opportunity_score", ascending=False).reset_index(drop=True)
-
+    
     return result
 
 

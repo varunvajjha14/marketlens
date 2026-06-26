@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
-from dash import Input, Output, State, dash_table, html, ctx
+from dash import Input, Output, State, dash_table, html, ctx, dcc
 import os
 
 PROCESSED_DIR = Path(__file__).resolve().parents[2] / "data" / "processed"
@@ -349,6 +349,35 @@ Write 2 sentences on why {best['ward_name']} is best. Be specific. No markdown."
             "border": "1px solid rgba(255,255,255,0.1)",
             "borderRadius": "14px", "padding": "24px",
         })
+    
+    # ── CSV Download ──────────────────────────────────────────────
+    @app.callback(
+        Output("download-csv", "data"),
+        Input("download-btn", "n_clicks"),
+        prevent_initial_call=True,
+    )
+    def download_csv(n_clicks):
+        df = load_scores()
+        return dcc.send_data_frame(df.to_csv, "marketlens_ward_scores.csv", index=False)
+
+    # ── Power BI Ready CSV Download ───────────────────────────────
+    @app.callback(
+        Output("download-bi-csv", "data"),
+        Input("download-bi-btn", "n_clicks"),
+        prevent_initial_call=True,
+    )
+    def download_bi_csv(n_clicks):
+        df = load_scores()
+        bi_df = df.copy()
+        bi_df.columns = [
+            "Ward Name", "Ward ID", "Total Venues", "Restaurant Count",
+            "Fast Food Count", "Cafe Count", "Chain Count", "Independent Count",
+            "Delivery Ratio %", "Unique Cuisines", "Dominant Category",
+            "Opportunity Score", "Opportunity Tier",
+            "Data Confidence", "Confidence %",
+        ]
+        bi_df["Delivery Ratio %"] = (bi_df["Delivery Ratio %"] * 100).round(1)
+        return dcc.send_data_frame(bi_df.to_csv, "marketlens_powerbi_ready.csv", index=False)
 
 
 def _call_groq(question: str, df: pd.DataFrame) -> str:
