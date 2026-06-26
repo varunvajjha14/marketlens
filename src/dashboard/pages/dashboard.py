@@ -5,7 +5,7 @@ from dash import html, dcc, dash_table, Input, Output, callback
 import dash_bootstrap_components as dbc
 from pathlib import Path
 from functools import lru_cache
-dcc.Download 
+
 
 PROCESSED_DIR = Path(__file__).resolve().parents[3] / "data" / "processed"
 GEOJSON_PATH  = Path(__file__).resolve().parents[3] / "data" / "geojson" / "mumbai_wards.geojson"
