@@ -11,67 +11,92 @@ def load_features() -> pd.DataFrame:
     return pd.read_csv(PROCESSED_DIR / "ward_features.csv")
 
 
-def compute_opportunity_score(df: pd.DataFrame) -> pd.DataFrame:
+def load_census() -> pd.DataFrame:
+    return pd.read_csv(PROCESSED_DIR / "ward_census_proxy.csv")
+
+
+def compute_opportunity_score(df: pd.DataFrame, census: pd.DataFrame) -> pd.DataFrame:
     """
     Score each ward on market opportunity using a weighted composite.
 
-    Logic:
-      - Fewer total venues = less competition = higher opportunity
-      - More independents vs chains = more fragmented market = higher opportunity
-      - Low delivery ratio = underserved on delivery = higher opportunity
-      - Low cuisine diversity = cuisine gap exists = higher opportunity
-      - More fast food vs restaurants = quality gap = higher opportunity
-
-    All signals are scaled 0-1 then combined with weights.
-    Final score: 0 = low opportunity, 100 = high opportunity
+    Signals:
+      - Scarcity:        fewer venues = more room to enter
+      - Delivery gap:    low delivery % = unmet demand
+      - Cuisine gap:     fewer cuisine types = more gaps
+      - Quality gap:     fast food heavy = demand for better options
+      - Fragmentation:   independent-heavy = weaker incumbents
+      - Population pull: high density + low income = high unmet demand
     """
 
-    features = df.copy()
+    features = df.merge(
+        census[["ward_name", "population", "population_density",
+                "avg_income_proxy", "income_score"]],
+        on="ward_name",
+        how="left",
+    )
 
-    # --- Raw signals (higher raw value = more opportunity) ---
+    # ── Raw signals ──────────────────────────────────────────────
 
-    # 1. Scarcity: inverse of total venues (fewer venues = more room to enter)
-    features["sig_scarcity"] = 1 / (features["total_venues"] + 1)
+    # 1. Scarcity: venues per 1000 population (lower = more opportunity)
+    features["venues_per_1000"] = (
+        features["total_venues"] / (features["population"] / 1000)
+    ).round(3)
+    features["sig_scarcity"] = 1 / (features["venues_per_1000"] + 0.1)
 
-    # 2. Fragmentation: independent ratio (more independents = weaker incumbents)
-    features["sig_fragmentation"] = 1 - features["chain_ratio"]
-
-    # 3. Delivery gap: inverse of delivery ratio (low delivery = unmet demand)
+    # 2. Delivery gap
     features["sig_delivery_gap"] = 1 - features["delivery_ratio"]
 
-    # 4. Cuisine gap: inverse of unique cuisines normalised (fewer = more gaps)
+    # 3. Cuisine gap
     features["sig_cuisine_gap"] = 1 / (features["unique_cuisines"] + 1)
 
-    # 5. Quality gap: fast_food proportion (high fast food = demand for better options)
-    features["sig_quality_gap"] = features["fast_food_count"] / (features["total_venues"] + 1)
+    # 4. Quality gap: fast food proportion
+    features["sig_quality_gap"] = (
+        features["fast_food_count"] / (features["total_venues"] + 1)
+    )
 
-    # --- Scale every signal to 0-1 ---
+    # 5. Fragmentation
+    features["sig_fragmentation"] = 1 - (
+        features["chain_count"] / (features["total_venues"] + 1)
+    )
+
+    # 6. Population demand signal:
+    #    High density + Low income = highest unmet demand
+    #    High density + High income = demand but more competition
+    #    Low density + any income = lower signal
+    density_scaled = MinMaxScaler().fit_transform(
+        features[["population_density"]]
+    ).flatten()
+    income_inverse = (4 - features["income_score"]) / 3  # Low=1 → 1.0, High=3 → 0.33
+    features["sig_population"] = density_scaled * income_inverse
+
+    # ── Scale all signals to 0-1 ─────────────────────────────────
     signal_cols = [
         "sig_scarcity",
-        "sig_fragmentation",
         "sig_delivery_gap",
         "sig_cuisine_gap",
         "sig_quality_gap",
+        "sig_fragmentation",
+        "sig_population",
     ]
 
     scaler = MinMaxScaler()
     scaled = scaler.fit_transform(features[signal_cols])
     scaled_df = pd.DataFrame(scaled, columns=signal_cols, index=features.index)
 
-    # --- Weighted composite ---
+    # ── Weighted composite ───────────────────────────────────────
     weights = {
-        "sig_scarcity":      0.30,   # most important: how crowded is the market
-        "sig_delivery_gap":  0.25,   # second: delivery is the core use case
-        "sig_cuisine_gap":   0.20,   # third: cuisine diversity gap
-        "sig_quality_gap":   0.15,   # fourth: fast food heavy = quality opportunity
-        "sig_fragmentation": 0.10,   # fifth: chain vs independent dynamic
+        "sig_scarcity":      0.25,
+        "sig_delivery_gap":  0.20,
+        "sig_population":    0.20,
+        "sig_cuisine_gap":   0.15,
+        "sig_quality_gap":   0.10,
+        "sig_fragmentation": 0.10,
     }
 
     features["opportunity_score"] = sum(
         scaled_df[col] * weight for col, weight in weights.items()
     )
 
-    # Scale to 0-100 for readability
     features["opportunity_score"] = (
         MinMaxScaler(feature_range=(0, 100))
         .fit_transform(features[["opportunity_score"]])
@@ -79,12 +104,15 @@ def compute_opportunity_score(df: pd.DataFrame) -> pd.DataFrame:
         .flatten()
     )
 
-    # --- Cluster into tiers ---
+    # ── Cluster into tiers ───────────────────────────────────────
     kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
     features["tier_raw"] = kmeans.fit_predict(features[["opportunity_score"]])
 
-    # Map cluster numbers to meaningful labels based on score
-    cluster_means = features.groupby("tier_raw")["opportunity_score"].mean().sort_values()
+    cluster_means = (
+        features.groupby("tier_raw")["opportunity_score"]
+        .mean()
+        .sort_values()
+    )
     tier_map = {
         cluster_means.index[0]: "Low",
         cluster_means.index[1]: "Medium",
@@ -92,10 +120,7 @@ def compute_opportunity_score(df: pd.DataFrame) -> pd.DataFrame:
     }
     features["opportunity_tier"] = features["tier_raw"].map(tier_map)
 
-    # --- Final output columns ---
-    # --- Data confidence score ---
-    # Based on how many venues we have vs expected for a Mumbai ward
-    # Wards with <10 venues are likely under-mapped on OSM
+    # ── Data confidence ──────────────────────────────────────────
     features["data_confidence"] = features["total_venues"].apply(
         lambda x: "High" if x >= 30 else "Medium" if x >= 10 else "Low"
     )
@@ -103,46 +128,51 @@ def compute_opportunity_score(df: pd.DataFrame) -> pd.DataFrame:
         lambda x: min(round((x / 50) * 100, 0), 100)
     )
 
+    # ── Final output ─────────────────────────────────────────────
     result = features[[
         "ward_name", "ward_id",
         "total_venues", "restaurant_count", "fast_food_count",
         "cafe_count", "chain_count", "independent_count",
         "delivery_ratio", "unique_cuisines", "dominant_category",
+        "population", "population_density", "avg_income_proxy",
+        "venues_per_1000",
         "opportunity_score", "opportunity_tier",
         "data_confidence", "confidence_pct",
     ]].sort_values("opportunity_score", ascending=False).reset_index(drop=True)
-    
+
     return result
 
 
 def run_scoring():
-    print("=" * 50)
+    print("=" * 55)
     print("Loading ward features...")
     df = load_features()
 
-    print("Computing opportunity scores...")
-    scored = compute_opportunity_score(df)
+    print("Loading census proxy data...")
+    census = load_census()
 
-    # Save
+    print("Computing opportunity scores with census integration...")
+    scored = compute_opportunity_score(df, census)
+
     out_path = PROCESSED_DIR / "ward_scores.csv"
     scored.to_csv(out_path, index=False)
 
-    print("\n" + "=" * 50)
-    print("OPPORTUNITY SCORES — Mumbai Wards")
-    print("=" * 50)
+    print("\n" + "=" * 55)
+    print("OPPORTUNITY SCORES — Mumbai Wards (v1.2)")
+    print("=" * 55)
 
     for tier in ["High", "Medium", "Low"]:
         tier_df = scored[scored["opportunity_tier"] == tier]
-        print(f"\n🟢 {tier} Opportunity:" if tier == "High"
-              else f"\n🟡 {tier} Opportunity:" if tier == "Medium"
-              else f"\n🔴 {tier} Opportunity:")
+        emoji = {"High": "🟢", "Medium": "🟡", "Low": "🔴"}[tier]
+        print(f"\n{emoji} {tier} Opportunity:")
         for _, row in tier_df.iterrows():
             print(
                 f"  {row['ward_name']:<20} "
                 f"score={row['opportunity_score']:>5.1f}  "
-                f"venues={row['total_venues']:>3}  "
-                f"delivery_ratio={row['delivery_ratio']:.2f}  "
-                f"cuisines={row['unique_cuisines']}"
+                f"pop={row['population']:>7,}  "
+                f"density={row['population_density']:>6,}  "
+                f"venues/1k={row['venues_per_1000']:.2f}  "
+                f"income={row['avg_income_proxy']}"
             )
 
     print(f"\n✅ Saved to data/processed/ward_scores.csv")

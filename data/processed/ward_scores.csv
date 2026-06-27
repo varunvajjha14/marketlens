@@ -1,25 +1,25 @@
-ward_name,ward_id,total_venues,restaurant_count,fast_food_count,cafe_count,chain_count,independent_count,delivery_ratio,unique_cuisines,dominant_category,opportunity_score,opportunity_tier,data_confidence,confidence_pct
-Malabar Hill,D,4,3,0,0,0,4,0.0,2,restaurant,100.0,High,Low,8.0
-Borivali North,RN,3,2,0,1,1,2,0.0,3,restaurant,86.1,High,Low,6.0
-Dharavi,GN,12,2,6,1,0,12,0.0,5,fast_food,81.4,High,Medium,24.0
-Byculla,E,7,3,3,1,1,6,0.0,5,fast_food,80.2,High,Low,14.0
-Chembur,MW,8,3,2,2,1,7,0.0,4,restaurant,73.5,High,Low,16.0
-Goregaon,PN,16,8,4,4,3,13,0.0,5,restaurant,57.0,Medium,Medium,32.0
-Borivali South,PS,14,7,5,1,4,10,0.0,8,restaurant,53.4,Medium,Medium,28.0
-Mulund,T,82,38,29,11,5,77,0.0,11,restaurant,50.1,Medium,High,100.0
-Dahisar,RC,21,13,2,4,0,21,0.0,8,restaurant,48.6,Medium,Medium,42.0
-Santacruz East,HE,18,2,7,8,5,13,0.056,7,cafe,44.9,Medium,Medium,36.0
-Sion,FN,27,15,2,5,5,22,0.0,5,restaurant,43.5,Medium,Medium,54.0
-Dadar,GS,65,27,24,8,11,54,0.0,18,restaurant,43.2,Medium,High,100.0
-Govandi,ME,24,13,1,5,3,21,0.0,6,restaurant,42.7,Medium,Medium,48.0
-Kurla,KE,21,17,2,2,2,19,0.048,6,restaurant,39.9,Medium,Medium,42.0
-Mandvi,B,61,38,13,10,4,57,0.016,14,restaurant,38.5,Medium,High,100.0
-Ghatkopar,N,36,17,6,11,3,33,0.028,11,restaurant,37.2,Medium,High,72.0
-Kurla East,L,32,14,11,6,7,25,0.062,12,restaurant,34.8,Medium,High,64.0
-Santacruz West,HW,22,11,3,6,4,18,0.045,8,restaurant,34.7,Medium,Medium,44.0
-Mahim,FS,34,19,4,9,7,27,0.029,9,restaurant,31.1,Low,High,68.0
-Bandra,S,217,98,41,57,22,195,0.018,31,restaurant,29.1,Low,High,100.0
-Andheri West,KW,144,56,44,34,29,115,0.056,26,restaurant,25.7,Low,High,100.0
-Kandivali,RS,22,10,1,10,3,19,0.091,8,cafe,24.3,Low,Medium,44.0
-Girgaon,C,76,53,10,9,6,70,0.066,17,restaurant,23.3,Low,High,100.0
-Colaba,A,8,5,0,1,3,5,0.25,7,restaurant,0.0,Low,Low,16.0
+ward_name,ward_id,total_venues,restaurant_count,fast_food_count,cafe_count,chain_count,independent_count,delivery_ratio,unique_cuisines,dominant_category,population,population_density,avg_income_proxy,venues_per_1000,opportunity_score,opportunity_tier,data_confidence,confidence_pct
+Dharavi,GN,12,2,6,1,0,12,0.0,5,fast_food,680000,283333,Low,0.018,100.0,High,Medium,24.0
+Byculla,E,7,3,3,1,1,6,0.0,5,fast_food,267000,86129,Low,0.026,66.9,Medium,Low,14.0
+Malabar Hill,D,4,3,0,0,0,4,0.0,2,restaurant,101000,24048,High,0.04,61.8,Medium,Low,8.0
+Chembur,MW,8,3,2,2,1,7,0.0,4,restaurant,334000,36304,Medium,0.024,59.5,Medium,Low,16.0
+Borivali North,RN,3,2,0,1,1,2,0.0,3,restaurant,289000,24914,Medium,0.01,53.8,Medium,Low,6.0
+Goregaon,PN,16,8,4,4,3,13,0.0,5,restaurant,398000,32097,Medium,0.04,50.0,Medium,Medium,32.0
+Borivali South,PS,14,7,5,1,4,10,0.0,8,restaurant,367000,33981,Medium,0.038,45.7,Medium,Medium,28.0
+Dahisar,RC,21,13,2,4,0,21,0.0,8,restaurant,341000,24014,Medium,0.062,44.0,Medium,Medium,42.0
+Kurla,KE,21,17,2,2,2,19,0.048,6,restaurant,418000,64308,Low,0.05,43.5,Medium,Medium,42.0
+Govandi,ME,24,13,1,5,3,21,0.0,6,restaurant,412000,49048,Low,0.058,43.0,Medium,Medium,48.0
+Santacruz East,HE,18,2,7,8,5,13,0.056,7,cafe,289000,55577,Medium,0.062,38.0,Medium,Medium,36.0
+Sion,FN,27,15,2,5,5,22,0.0,5,restaurant,298000,62083,Medium,0.091,38.0,Medium,Medium,54.0
+Kurla East,L,32,14,11,6,7,25,0.062,12,restaurant,489000,68873,Low,0.065,37.1,Medium,High,64.0
+Ghatkopar,N,36,17,6,11,3,33,0.028,11,restaurant,456000,51818,Medium,0.079,36.7,Medium,High,72.0
+Mulund,T,82,38,29,11,5,77,0.0,11,restaurant,312000,21370,Medium,0.263,31.5,Low,High,100.0
+Dadar,GS,65,27,24,8,11,54,0.0,18,restaurant,312000,76098,Medium,0.208,31.4,Low,High,100.0
+Kandivali,RS,22,10,1,10,3,19,0.091,8,cafe,423000,32290,Medium,0.052,28.4,Low,Medium,44.0
+Mandvi,B,61,38,13,10,4,57,0.016,14,restaurant,205000,73214,Medium,0.298,26.5,Low,High,100.0
+Santacruz West,HW,22,11,3,6,4,18,0.045,8,restaurant,198000,41250,High,0.111,26.1,Low,Medium,44.0
+Mahim,FS,34,19,4,9,7,27,0.029,9,restaurant,248000,68889,Medium,0.137,25.9,Low,High,68.0
+Girgaon,C,76,53,10,9,6,70,0.066,17,restaurant,231000,92400,Medium,0.329,17.2,Low,High,100.0
+Bandra,S,217,98,41,57,22,195,0.018,31,restaurant,276000,40588,High,0.786,11.7,Low,High,100.0
+Andheri West,KW,144,56,44,34,29,115,0.056,26,restaurant,376000,45854,High,0.383,11.5,Low,High,100.0
+Colaba,A,8,5,0,1,3,5,0.25,7,restaurant,158000,31600,High,0.051,0.0,Low,Low,16.0

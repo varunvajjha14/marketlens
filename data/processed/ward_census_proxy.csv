@@ -1,0 +1,25 @@
+ward,ward_name,population,area_sqkm,avg_income_proxy,population_density,income_score
+A,Colaba,158000,5.0,High,31600,3
+B,Mandvi,205000,2.8,Medium,73214,2
+C,Girgaon,231000,2.5,Medium,92400,2
+D,Malabar Hill,101000,4.2,High,24048,3
+E,Byculla,267000,3.1,Low,86129,1
+FN,Sion,298000,4.8,Medium,62083,2
+FS,Mahim,248000,3.6,Medium,68889,2
+GN,Dharavi,680000,2.4,Low,283333,1
+GS,Dadar,312000,4.1,Medium,76098,2
+HE,Santacruz East,289000,5.2,Medium,55577,2
+HW,Santacruz West,198000,4.8,High,41250,3
+KE,Kurla,418000,6.5,Low,64308,1
+KW,Andheri West,376000,8.2,High,45854,3
+L,Kurla East,489000,7.1,Low,68873,1
+ME,Govandi,412000,8.4,Low,49048,1
+MW,Chembur,334000,9.2,Medium,36304,2
+N,Ghatkopar,456000,8.8,Medium,51818,2
+PN,Goregaon,398000,12.4,Medium,32097,2
+PS,Borivali South,367000,10.8,Medium,33981,2
+RC,Dahisar,341000,14.2,Medium,24014,2
+RN,Borivali North,289000,11.6,Medium,24914,2
+RS,Kandivali,423000,13.1,Medium,32290,2
+S,Bandra,276000,6.8,High,40588,3
+T,Mulund,312000,14.6,Medium,21370,2
