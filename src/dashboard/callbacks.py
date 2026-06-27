@@ -75,6 +75,10 @@ def register_callbacks(app):
                 ("🔗 Chains",      str(int(r["chain_count"]))),
                 ("🛵 Delivery",    f"{r['delivery_ratio']*100:.1f}%"),
                 ("🍜 Cuisines",    str(int(r["unique_cuisines"]))),
+                ("👥 Population",  f"{int(r['population']):,}"),
+                ("📍 Density",     f"{int(r['population_density']):,}/km²"),
+                ("💰 Income Zone", r["avg_income_proxy"]),
+                ("🏪 Venues/1k",   f"{r['venues_per_1000']:.2f}"),
             ]],
         ], style={
             "backgroundColor": "white", "borderRadius": "12px",
@@ -373,6 +377,8 @@ Write 2 sentences on why {best['ward_name']} is best. Be specific. No markdown."
             "Ward Name", "Ward ID", "Total Venues", "Restaurant Count",
             "Fast Food Count", "Cafe Count", "Chain Count", "Independent Count",
             "Delivery Ratio %", "Unique Cuisines", "Dominant Category",
+            "Population", "Population Density /km²", "Income Zone",
+            "Venues Per 1000 People",
             "Opportunity Score", "Opportunity Tier",
             "Data Confidence", "Confidence %",
         ]
